@@ -1,0 +1,1953 @@
+TY  - JOUR
+AN  - ART003297434
+AU  - 김찬수
+C3  - 국립공주대학교
+TI  - 이산 웨이블릿 변환을 이용한 LSTM 기반 PM2.5 시계열 예측 지연 완화 - 서울 중구 사례 연구 -
+TT  - Mitigating Prediction Lag in LSTM-Based PM2.5 Time Series Forecasting using Discrete Wavelet Transform: A Case Study of Jung-gu Seoul
+T2  - 기후연구
+KW  - PM2.5 시계열 예측
+KW  - 장단기 메모리
+KW  - 이산 웨이블릿 변환
+KW  - 예측 지연
+AB  - Accurate forecasting of fine particulate matter (PM 2.5) concentrations is critical for air quality management and public health. Long Short-Term Memory (LSTM) networks have demonstrated strong capabilities in modeling nonlinear and temporal dependencies in time series data. However, a common challenge in LSTMbased PM 2.5 forecasting is the presence of prediction lag, where model outputs tend to delay behind rapid changes in actual pollutant levels, reducing forecast responsiveness. This study proposes a hybrid approach combining Discrete Wavelet Transform (DWT) with LSTM to mitigate the lag effect in PM 2.5 time series prediction. The DWT decomposes the original PM 2.5 data into multiple frequency components, allowing the LSTM models to capture both short-term fluctuations and long-term trends more effectively. Based on observed data from Jung-gu, Seoul, the proposed DWT-LSTM model is evaluated against a baseline LSTM model. Experimental results demonstrate that the hybrid model significantly reduces prediction lag and improves forecasting accuracy across multiple evaluation metrics, including RMSE, MAE, and correlation coefficients. These findings suggest that integrating wavelet-based preprocessing with deep learning architectures enhances the temporal alignment and precision of air quality forecasts, contributing to more timely and informed decision-making.
+PU  - 기후연구소
+C6  - Dec. 31.
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+AN  - ART003290437
+AU  - 이강욱
+AU  - 이지우
+AU  - 배한별
+C3  - 군산대학교 수산생명의학과
+TI  - 미세먼지 시계열 예측을 위한 Prophet–LSTM 하이브리드 모델 제안
+TT  - A Prophet–LSTM Hybrid Model for Fine Dust Time-Series Forecasting
+T2  - 한국정보전자통신기술학회 논문지
+KW  - Air Quality Forecasting
+KW  - PM10 and PM2.5
+KW  - Time-Series Forecasting
+KW  - Prophet–LSTM Hybrid Model
+KW  - LSTM
+KW  - Deep Learning
+AB  - 본 연구는 서울 지역 PM10·PM2.5 예측 향상을 위해 Prophet의 구조적 패턴 학습 능력과 LSTM의 비선형 변동 포착 능력을 결합한 잔차 기반 Prophet–LSTM 하이브리드 모델을 제안한다. 2009~2023년 AirKorea 미세먼지와 KMA 기상자료를 활용해 Prophet, LSTM, XGBoost 단일 모델을 동일 조건에서 비교한 결과, Prophet은 추세·계절성 예측에, LSTM은 단기 비선형 변동 학습에 강점을 보였으나 각각 구조적 제약이 존재하였다. 기존 Prophet–LSTM 연구가 예측값과 잔차를 병렬·단변량 방식으로 처리해 외생변수를 활용한 다변량 보정에 한계가 있었던 점을 고려하여, 본 연구는 Prophet 예측값에서 발생한 잔차와 기상 변수를 LSTM의 입력으로 활용하는 잔차 기반 직렬 보정 하이브리드 구조를 설계하였다. 실험 결과 제안 모델은 RMSE·MAE 등 주요 지표에서 단일 모델 대비 우수한 성능을 보였으며, 구조적 패턴과 비선형 정보를 통합한 직렬 기반 결합 방식이 미세먼지 시계열 예측에 효과적임을 확인하였다.
+PU  - 한국정보전자통신기술학회
+C6  - Dec. 30.
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+AN  - ART003278059
+AU  - 박봉균
+AU  - 지건영
+AU  - 백수진
+AU  - 김유리
+AU  - 채목단
+AU  - 신혜진
+AU  - 김유진
+AU  - 이소민
+C3  - 한국한의학연구원
+TI  - 환경 미세먼지의 피부-면역-뇌 축 교란: 다중오믹스와 AI 기반 접근
+TT  - Environmental Fine Dust and the Skin–Immune–Brain Axis: Mechanistic Insights and AI-Driven Multi-Omics Approaches
+T2  - 한국환경보건학회지
+KW  - Particulate matter
+KW  - skin–immune–brain axis
+KW  - environmental disease
+KW  - multi-omics integration
+KW  - AI-based prediction
+AB  - Background: Consisting of sulfates, nitrates, metals, volatile organic compounds, and polycyclic aromatic hydrocarbons, particulate matter (PM) is a major component of air pollution. Chronic exposure to PM has traditionally been associated with respiratory and cardiovascular disorders; however, increasing evidence suggests that its detrimental effects extend to the skin, immune system, and central nervous system (CNS).Objectives: This review aims to summarize current knowledge on the pathophysiological mechanisms by which PM affects the skin–immune–brain axis and to explore the potential of AI-driven predictive models for early diagnosis and therapeutic development.Methods: We integrated evidence from epidemiological, clinical, and experimental studies that investigated PM-induced alterations in skin barrier function, immune activation, and neuroinflammation. In addition, we examined recent advances in multi-omics analyses and artificial intelligence (AI) applications for biomarker discovery and predictive modeling.Results: PM exposure disrupts skin barrier integrity, induces oxidative stress, and promotes pro- inflammatory cytokine release, thereby exacerbating inflammatory skin diseases such as atopic dermatitis and psoriasis. PM also triggers Th2 immune polarization; increases IgE, histamine, and chemokine signaling; and promotes systemic inflammatory responses. Systemic immune activation and cytokine signaling subsequently affect the CNS, leading to microglial activation, blood–brain barrier disruption, and neuroinflammation, which are linked to depression, anxiety, Alzheimer’s disease, and Parkinson’s disease. Recent AI-driven multi-omics studies such as Graph Neural Networks (GNN) and variational autoencoder– based integration have identified key SIB axis biomarkers including AhR–CYP1A1, IL-6, IL-1β, SOD2, and NLRP3, improving prediction of PM related disease risk.Conclusions: PM acts as a systemic environmental risk factor that drives interconnected pathological processes across the SIB axis. Integrating multi-omics with AI-based prediction models may facilitate early detection and personalized interventions for PM related skin, immune, and neuropsychiatric disorders.
+PU  - 한국환경보건학회
+C6  - Dec. 31.
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+AN  - ART003246748
+AU  - 서지원
+AU  - 오정언
+AU  - 이형석
+AU  - 손민수
+AU  - 나승철
+AU  - 김성준
+AU  - 박용균
+C3  - 전남대학교
+TI  - 딥러닝 기반 산업단지 미세먼지 예측과 대기질 건강영향지표 적용에 대한 연구
+TT  - Deep Learning-Based Prediction of Particulate Matter and Application of Air Quality Health Impact Indicators in Industrial Complexes
+T2  - 대한환경공학회지
+KW  - 안전관리
+KW  - 미세먼지
+KW  - 딥러닝
+KW  - 대기질건강지수
+KW  - 옥외작업자
+AB  - 미세먼지는 WHO 산하 국제암연구소에서 1급 발암물질로 분류된 환경보건 위험요인으로 산업단지 옥외작업자들은 일반 인구집단 대비 높은 노출위험에 처해있다. 본 연구는 산업단지 옥외작업자의 미세먼지 노출 위험 관리를 목적으로 딥러닝 기반 예측 모델을 개발하고, 대기질 건강지수(AQHI)를 적용하여 건강영향 평가 도구로서의 활용 가능성을 평가하였다. 이를 위해 전남 여수국가산업단지에서 수집된 2023~2024년 시간별 대기질 데이터(PM2.5, PM10, O3, NO2, CO, SO2)를 활용하여 딥러닝(LSTM, GRU) 기반 미세먼지 예측 모델을 개발하였다. 개발된 모델은 입력 시퀀스 길이 최적화와 k-선행 시점 예측 방식을 통해 예측 시점별 신뢰성을 평가하였다. 분석 결과, PM2.5는 6-24시간 입력 시퀀스에서 최적 성능을 보였으며, PM10은 336시간에서 최고성능을 달성하였다. k-선행 시점 예측에서 1시간 후 예측이 가장 우수한 성능을 보였고, R2 0.7 기준으로 PM2.5는 2시간까지, PM10은 1시간까지 신뢰 가능한 예측 범위로 분석되었다. 예측 기반 AQHI는 실측 기반 AQHI와 유사한 패턴을 보여 건강영향 평가 지표로서의 활용 가능성을 확인하였다. 또한 본 연구는 k-선행 시점 예측 방식을 적용하여 기존 재귀적 다중 시점 예측의 오차 누적 문제를 개선하고, 홍콩 AQHI 방법론을 도입함으로써 산업단지 옥외작업자의 건강위험 평가에 기여하였다.
+PU  - 대한환경공학회
+C6  - Sep. 30.
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+AN  - ART003244020
+AU  - 신정택
+AU  - 이건명
+AU  - 이상준
+C3  - 숭실대학교 AISW융합학과
+TI  - 딥러닝 기반 실외 대기 오염 농도 예측
+TT  - Deep Learning-Based Prediction of Outdoor Air Pollution Concentration
+T2  - 정보과학회 컴퓨팅의 실제 논문지
+KW  - 시계열 예측
+KW  - LSTM
+KW  - 딥러닝
+KW  - 대기 질 예측
+AB  - 기후 변화로 인한 실외 대기 오염 증가와 신종 전염병 확산으로 사람들의 실내 활동이 증가하면서 실내 공기 질 개선을 위한 연구의 필요성이 증대되었다. 본 연구에서는 실내 공기 질이 실외 대기 상태와 밀접한 관련이 있을 것이라는 가정에 기반하여 실외 대기 질 예측 모델을 제안하였다. 이 모델은 순환신경망, 구체적으로는 Long Short-Term Memory (LSTM) 입력 변수는 상관관계가 높은 실외 대기 오염 물질로 구성되었다. 이 모델은 하이퍼파라미터 최적화를 통해 학습되었으며, 예측 성능은 Root Mean Squared Error (RMSE)를 사용하여 평가되었다. 실험 결과, CO를 제외한 오염 물질에서 단일 요소보다 상관관계가 높은 요소를 사용한 입력 방식이 모델의 예측 성능을 효과적으로 향상시키는 것으로 나타났다. 제안 모델은 실외 대기 환경의 변화에 유연하게 대응할 수 있으며, 실내 공기 질을 효과적으로 제어할 수 있는 설계 기준을 제공한다.
+PU  - 한국정보과학회
+C6  - Sep. 15.
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+AN  - ART003250216
+AU  - 최준우
+AU  - 박현승
+AU  - 강민수
+C3  - Medical Intelligence Information Center
+TI  - (Review) A Study on Deep Learning-Based PM2.5 Forecasting Using Meteorological and Air Quality Data
+TT  - 
+T2  - 인공지능연구
+KW  - PM2.5 Forecasting
+KW  - Air Quality
+KW  - Deep Learning
+KW  - Time-Series Modeling
+KW  - No coding
+AB  - In this study, we employ artificial intelligence to forecast PM2.5 concentrations, a critical component of air quality. Air pollution caused by fine particulate matter, such as PM10 and PM2.5, poses serious threats to both human health and the environment. Accordingly, the development of accurate and timely monitoring and prediction systems is becoming increasingly important for public health and smart city governance. In this research, we collected public air quality and meteorological data provided by the Ministry of Environment and the Korea Meteorological Administration, focusing on the Seoul metropolitan area. After performing preprocessing steps including time-series alignment, missing-value imputation, and scaling, predictions were conducted using the Canvas platform within AWS SageMaker. The model achieved a root mean squared error (RMSE) of 9.82 µg/m³, a mean absolute error (MAE) of 6.63 µg/m³, and a coefficient of determination (R²) of 0.71 for daily PM2.5 forecasting. In addition, classification of high PM2.5 events exceeding 35 µg/m³ based on the predicted 90th percentile (p90) yielded a precision of 92.3%, accuracy of 91.9%, recall of 66.7%, and an F1 score of 77.4%. The results confirm that forecasting based on the p90 quantile is effective in identifying high-risk air pollution events with high precision. Furthermore, the fan chart visualization between p10 and p90 provides a meaningful representation of forecast uncertainty. This probabilistic approach not only estimates central tendencies but also serves as a valuable tool for issuing early warnings of potential pollution spikes that may impact health policies and public safety.
+PU  - 한국인공지능학회
+C6  - Sep. 30.
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+AN  - ART003250968
+AU  - 양준모
+AU  - 이도현
+AU  - 박용배
+C3  - 아주대학교
+TI  - 딥러닝 기반 시계열 예측과 공간 보간의 결합을 통한 대기 환경에서의 전파 특성 예측 고도화
+TT  - Enhancing the Prediction of Propagation Characteristics in the Atmosphere Using Combined Deep Learning-Based Time-Series Forecasting and Spatial Interpolation
+T2  - 한국전자파학회 논문지
+KW  - Time Series Forecasting
+KW  - Long Short-Term Memory
+KW  - Spatial Interpolation
+KW  - Atmospheric Refractivity
+KW  - Wave Propagation
+AB  - 본 논문은 LSTM 기반 시계열 예측과 공간 보간을 활용하여 대기 굴절률을 정밀하게 모델링하는 방법을 제안한다.관측이 중단된 기상 관측소에서 측정된 대기 굴절률의 시계열을 LSTM으로 학습하여 미래 시점의 대기 굴절률을 예측함으로써, 대기 굴절률 모델링을 위한 보간 샘플 수를 기존 9개에서 12개로 확장한다. 본 논문에서는 확장된 샘플로 예측된대기 굴절률을 다운링크 시나리오에서 정지궤도 위성 안테나의 전파 특성 예측에 적용함으로써, 딥러닝 기반 시계열예측과 공간 보간의 결합이 대기 환경에서의 전파 특성 예측을 고도화하는 효과적인 방법이 될 수 있음을 제시한다.
+PU  - 한국전자파학회
+C6  - Sep. 30.
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+AN  - ART003244700
+AU  - 이루오
+AU  - 한다인
+AU  - 정낙현
+C3  - 서울과학종합대학원대학교 AI⋅빅데이터학과
+TI  - LLM-based Hyperparameter Tuning Framework for Time Series Forecasting: A Case Study on Seoul Air Quality Data
+TT  - 
+T2  - 품질경영학회지
+KW  - Time Series Forecasting
+KW  - Generative AI
+KW  - LLM-in-the-loop
+KW  - Hyperparameter Tuning
+KW  - Air Quality Prediction
+AB  - Purpose: This study proposes the LLM-based Hyperparameter Tuning for Time Series (LHTT) framework, an automated time series forecasting system utilizing large language models and validates its effectiveness through Seoul air quality (PM2.5) data analysis. The research aims to automate the entire process from model selection to hyperparameter optimization and result analysis using generative AI.Methods: Five different time series forecasting models (Exponential Smoothing, ARIMA, Prophet, LSTM, Transformer) were implemented and compared using Seoul PM2.5 data from May 1 to May 31, 2025 (18,500 observations from 25 monitoring stations). Gemma3:27B was utilized for automated hyperparameter tuning through iterative feedback loops. Performance evaluation was conducted using MSE, RMSE, MAE, R², and MAPE metrics.Results: Among baseline models, Transformer achieved the best performance with RMSE 4.08, R² 0.79, and MAPE 9.53%. However, after LLM-based tuning, the LSTM model achieved superior performance with RMSE 3.70, R² 0.82, and MAPE 9.71%, representing significant improvement over the baseline models. Statistical models also showed dramatic improvements after LLM tuning, with Exponential Smoothing achieving 87.85% reduction in RMSE.Conclusion: The proposed LHTT framework demonstrates significant potential for improving time series forecasting accuracy while minimizing expert intervention. The automated system successfully generated comprehensive analysis reports and achieved practical prediction accuracy suitable for environmental policy applications, proving the feasibility of end-to-end automation in data science workflows.
+PU  - 한국품질경영학회
+C6  - Sep. 30.
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+AN  - ART003234037
+AU  - 이민혁
+AU  - 곽민진
+AU  - 노혜진
+AU  - 박채원
+AU  - 이승훈
+AU  - 김성준
+AU  - 박용균
+C3  - 전남대학교
+TI  - CNN–GRU 딥러닝 모델을 활용한 대한민국 주요 도시의 미세먼지 농도 예측
+TT  - Prediction of Fine Dust Concentrations in Major South Korean Cities Using a CNN–GRU Deep Learning Model
+T2  - 대한환경공학회지
+KW  - 도시 대기환경
+KW  - 도시대기측정망
+KW  - 안전관리
+KW  - 딥러닝 알고리즘
+KW  - 대기오염 모니터링 및 예측
+AB  - 본 연구는 대한민국 8개 주요 특･광역시를 대상으로 미세먼지(PM2.5, PM10) 농도를 예측하기 위해 CNN–GRU 하이브리드 딥러닝 모델의 적용 가능성을 평가하였다. 미세먼지와 대기오염 인자(SO2, CO, O3, NO2) 자료는 인구 규모와 인구 밀도가 가장 높은 측정 지점에서 2020년부터 2024년 10월까지 1시간 단위로 수집하였고, 수집된 자료에 대해 기초 통계 분석과 Pearson 상관계수를 활용한 상관성 분석을 수행하였다. 예측 모델은 국소적 특성 추출을 위해 1층 CNN을, 시계열 패턴 학습을 위해 2층 GRU를 적용하여 설계하였으며, 모델 성능 평가는 RMSE와 SMAPE를 활용하였다. 연구 결과, 평균 PM2.5 및 PM10 농도는 인천광역시에서 가장 높았고, PM2.5는 부산광역시, PM10는 광주광역시에서 가장 낮았다. 대기오염 인자 간 상관성은 서울특별시와 인천광역시에서 두드러졌으며, PM2.5, PM10와 O3간의 상관성은 지역별로 차이를 보였다. CNN–GRU 모델의 예측 성능은 전반적으로 우수하였고, 특히 광주광역시의 경우 PM2.5 예측에서 RMSE 2.36, PM10 예측에서 RMSE 3.44로 가장 좋은 결과를 보였으며, SMAPE 기준으로는 PM2.5 예측에서 인천광역시(21.49%), PM10 예측에서 서울특별시(12.98%)가 가장 우수한 성능을 나타냈다. 이러한 결과는 CNN–GRU 기반 미세먼지 예측 모델이 실시간 대기질 예보 시스템 구축에 활용될 수 있는 높은 잠재력이 있음을 보여주었고, 향후에는 연구 대상 외 다른 도시 및 지역에 대한 적용성과 모델 최적화 연구가 필요하다.
+PU  - 대한환경공학회
+C6  - Aug. 31.
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+AN  - ART003220461
+AU  - 손수진
+AU  - 한광인
+AU  - 신지윤
+AU  - 김민경
+AU  - 박덕신
+AU  - 서성철
+AU  - 박종철
+C3  - 선도소프트
+TI  - 시계열 결측 자료를 고려한 실내 초미세먼지 예측을 위한 머신러닝 모델 비교
+TT  - Comparison of Machine Learning Models for Indoor PM2.5 Prediction Considering Missing Time Series Data
+T2  - 기후연구
+KW  - 실내 초미세먼지
+KW  - 지하철 역사
+KW  - 머신러닝
+KW  - 앙상블 모델
+KW  - 선행시간
+AB  - Accurate real-time prediction of fine particulate matter (PM 2.5) in enclosed public transport spaces like subway stations is essential for air quality control and public health. This study developed a machine learning-based model designed to maintain stable predictions even with missing time-series indoor air quality data. Three input datasets were prepared using different methods of incorporating outdoor air quality: data from a single site, averages from multiple sites, and individual values from several sites. Five individual machine learning models and three ensemble models, which do not rely on time-series data, were tested for prediction accuracy over 1-4 hour lead times.The XGBoost-Cubist ensemble model performed best (Kling and Gupta Efficiency = 0.838), showing strong and stable accuracy even at longer lead times. Among the datasets, the one using averaged data from multiple outdoor monitoring sites yielded the most reliable predictions with the least accuracy loss over time. The study highlights that using spatially aggregated outdoor air data enhances the robustness of indoor PM₂.₅ forecasts. It also shows the practical value of non-time-series models in dealing with incomplete real-world data, offering insights for future air quality monitoring and alert systems in public transport environments.
+PU  - 기후연구소
+C6  - Jun. 30.
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+AN  - ART003215361
+AU  - 이성일
+AU  - 이동훈
+AU  - 송효종
+AU  - 안준영
+AU  - 박승명
+AU  - 이재윤
+C3  - 명지대학교
+TI  - 대기환경연구소 기반 머신러닝 앙상블 모델과 칼만 필터를 통한 PM2.5 예측 성능 향상 연구
+TT  - A Study on Improving PM2.5 Prediction Performance through Machine Learning Ensemble Models and Kalman Filter Based on Air Quality Research Center
+T2  - 한국대기환경학회지
+KW  - Particulate matter 2.5
+KW  - Ensemble
+KW  - Kalman Filter
+KW  - Machine Learning
+KW  - Air pollution intensive monitoring stations
+AB  - This study aims to improve the prediction accuracy of PM2.5 concentrations by applying ensemble machine learning techniques and the Kalman Filter (KF), using detailed air pollutant data collected from the Air Quality Research Center, which are not available through general monitoring networks. The study evaluates the contribution of high-resolution chemical species data to PM2.5 prediction and the effectiveness of post-processing techniques in enhancing model performance. Three individual models-Linear Regression, Random Forest (RF), and XGBoost-were trained, evaluated, and combined to construct an ensemble model. To capture both linear and nonlinear data characteristics, Linear Regression was used alongside RF and XGBoost. Model training, validation, and testing were conducted using air quality data collected between 2019 and 2022 from both a general monitoring site and the Air Quality Research Center in Bulgwang-dong, Seoul. Permutation Feature Importance was applied to identify and remove variables that negatively affected prediction accuracy, thereby improving model efficiency. Seasonal performance was also evaluated to reflect Korea’s climate characteristics. Additionally, the KF was employed as a post-processing method to further enhance predictive performance. The final ensemble model, built from the most optimal individual models, demonstrated more stable and accurate predictions than any single model. After applying the KF, all performance metrics improved. RMSE and MAE decreased, and positively biased NMB values were slightly corrected.In 12-hour forecasts, the baseline model’s R2 dropped below 0.6 after 7 hours and reached 0.46, while the KF-applied model maintained R2 above 0.6 until 10 hours and reached 0.56. Similar improvements were seen in 48-hour forecasts. This study demonstrates the value of combining machine learning and data assimilation using high-resolution atmospheric data and provides a foundation for future air pollution forecasting and policy planning.
+PU  - 한국대기환경학회
+C6  - Jun. 30.
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+AN  - ART003215171
+AU  - 김지민
+AU  - 최민서
+AU  - 전예지
+AU  - 김태희
+AU  - 곽경환
+AU  - 이그림
+AU  - 강병철
+AU  - 정선아
+C3  - 강원대학교
+TI  - 기계학습 기법을 활용한 WRF-CMAQ 모델의 PM2.5 구성성분 모의 성능 개선
+TT  - Enhancing the Simulation Performance of PM2.5 Compositions in the WRF-CMAQ Modeling System Using Machine Learning Techniques
+T2  - 한국대기환경학회지
+KW  - WRF-CMAQ model
+KW  - Performance enhancement
+KW  - Machine learning
+KW  - PM2.5 components
+KW  - Air Quality Research Center
+AB  - PM2.5 compositions are important indicators for identifying emission sources and formation pathways of particulate matters in the atmosphere. In Korea, the Ministry of Environment has operated Air Quality Research Centers to monitor PM2.5 components continuously. However, relying solely on measurement data has limitations on obtaining temporal and spatial information. A 3-D chemistry-transport model enables us to simulate PM2.5 component concentrations at high spatiotemporal resolutions realistically when the simulated results are accurate. Therefore, this study aims to improve the simulation performance of one of the 3-D chemistry-transport models, Weather Research and Forecasting (WRF) - Community Multiscale Air Quality (CMAQ) model, for PM2.5 and its components using machine learning techniques. The WRF-CMAQ simulation results, including PM2.5 components, meteorology, geography, and emissions, were used as input data in the machine learning models. Measurement data of PM2.5 and its components from Air Quality Research Centers at 10 locations were used as target variables to build the machine learning models. The study period was from January 1st to March 31st, 2022. The best machine learning model showed a correlation coefficient above 0.83 which is quite reasonable to use for PM2.5 and its component simulations. We analyzed the WRF-CMAQ simulation results for PM2.5 episodes occurred nationwide. The machine learning-corrected WRF-CMAQ model results captured nationwide high PM2.5 levels better than the uncorrected WRF-CMAQ model results. It is expected that PM2.5 characteristics in other regions where Air Quality Research Centers do not exist can be accurately provided using the machine learning-corrected WRF-CMAQ model.
+PU  - 한국대기환경학회
+C6  - Jun. 30.
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+AN  - ART003221227
+AU  - 이은서
+AU  - 배영철
+C3  - 전남대학교
+TI  - PNC 딥러닝 모델을 이용한 미세먼지 납 농도 예측
+TT  - Prediction of Atmospheric Lead Concentration Using the PNC Deep Learning Model
+T2  - 한국전자통신학회 논문지
+KW  - 납 농도 예측
+KW  - 딥러닝
+KW  - PNC 모델
+KW  - 시계열 분석
+AB  - 본 연구는 수도권(서울)의 2017~2024년 납(Pb) 농도 및 기상 데이터를 활용하여 일 단위 납 농도를 예측하는 딥러닝 기반 모델을 비교 분석하였다. 입력 변수로는 8개의 기상 요소와 과거 3일간 납 농도 값을 활용하였다. CNN, LSTM, GRU, TCN, Transformer, PNC 모델을 적용한 결과, PNC 모델이 시험 데이터 기준 RMSE 17.34, MAE 10.45로 가장 우수한 성능을 보였다. 본 연구는 중금속 예측에 있어 데이터 기반 모델의 적용 가능성을 확인하였으며, 향후 지역 확장 및 고농도 대응 성능 개선에 대한 연구가 필요하다.
+PU  - 한국전자통신학회
+C6  - Jun.
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+AN  - ART003204943
+AU  - 신철수
+AU  - 서현규
+C3  - 국립공주대학교
+TI  - 딥러닝을 이용한 Soot/NOx Coupling Mechanism의 1차, 2차 미세먼지 예측 모델 개발
+TT  - Development of a Primary, Secondary Particulate Matter Emission Prediction Model Using the Soot/NOx Coupling Mechanism with Deep Learning
+T2  - 한국자동차공학회 논문집
+KW  - 미세먼지
+KW  - 화학반응 메커니즘
+KW  - 연소해석
+KW  - 딥러닝
+KW  - 장단기 메모리
+KW  - 대기화학
+AB  - This study aims to develop a predictive model for primary and secondary particulate matter(PM) exhaust emissions by utilizing a Soot/NOx coupling mechanism combined with deep learning techniques. Traditional computational fluid dynamics(CFD) methods for combustion analysis are often limited by extensive computational time and simplified chemical mechanisms, which compromise accuracy. 3D combustion simulations were conducted by leveraging a reduced biodiesel chemical kinetic mechanism validated in prior research to generate datasets for deep learning model training. The model predicts exhaust emissions(NOx, Soot, VOCs, and CO) under varying EGR rates, injection pressures, and initial temperatures. Additionally, atmospheric chemical reactions were analyzed to assess the formation of secondary PM. The proposed model addresses the limitations of conventional machine learning approaches by effectively capturing nonlinear relationships within the data, providing a significant improvement in emission prediction accuracy.
+PU  - 한국자동차공학회
+C6  - Jun. 1.
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+AN  - ART003201965
+AU  - Haining Zhang
+AU  - Yongrae Kim
+AU  - Lin Cui
+AU  - Seung Ki Moon
+AU  - Joon Phil Choi
+C3  - Suzhou University
+TI  - AI-Driven Process Optimization Framework for Enhancing Print Quality in Aerosol Jet Printing
+TT  - 
+T2  - International Journal of Precision Engineering and Manufacturing-Green Technology
+KW  - AI-driven
+KW  - Multi-objective optimization
+KW  - Aerosol jet printing
+KW  - Printing quality
+KW  - Anomaly detection
+KW  - Deep learning
+AB  - Aerosol jet printing (AJP) is a promising printing technology in the printed electronics industry, offering significant advantages by enabling the creation of highly customized patterns with a wide range of materials. However, broader application of AJP technology still faces challenges due to issues with printed line quality. According to previous research, inconsistencies in line width could lead to functional failures in the printed circuits. While various process parameters can be manipulated to customize line widths, such approaches often overlook the impact of line thickness on overall quality. This can lead to sub-optimal printed line quality within the design space. Furthermore, external factors such as temperature fluctuations and solvent evaporation can affect the printing process, in turn impacting the reliability and performance of the final electronic components. Therefore, optimizing key parameters and enhancing print quality in the AJP process is essential for improving the electrical functionality of the produced devices. This paper presents an AI-driven framework for optimizing printing quality in AJP. The proposed approach begins with Latin Hypercube Sampling for the initial experimental design. Bayesian Neural Networks (BNNs) are then utilized to model the printed line morphology, taking advantage of their ability to provide uncertainty estimates in predictions. The BNN models subsequently are integrated with a multi-objective genetic algorithm, which systematically identifies optimal process parameters that balance line width customization and line thickness maximization in a cost-effective manner. Furthermore, a convolutional neural networks model is developed for real-time monitoring of the printing process, enabling early detection of anomalies and continuous evaluation of process performance. Finally, experimental results demonstrate the validity of the developed approach for enhancing printing performance and anomaly detection in AJP.
+PU  - 한국정밀공학회
+C6  - May. 1.
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+AN  - ART003191829
+AU  - 변재윤
+AU  - 김태원
+AU  - 최은지
+AU  - 문진우
+C3  - 중앙대학교
+TI  - 인공지능 기반 실내 PM2.5 및 CO2 통합 제어 알고리즘을 적용한 외기도입형 환기청정기 성능 분석
+TT  - Performance Analysis of an Outdoor Air-Introduced Ventilation Cleaner Applied with an AI based Indoor PM2.5 and CO2 Integrated Control Algorithm
+T2  - 설비공학 논문집
+KW  - 제어 알고리즘
+KW  - 실내공기질
+KW  - 예측모델
+KW  - 환기시스템
+AB  - 본 연구는 재실자에게 쾌적한 공기질을 제공할 수 있는 인공지능 기반 실내 PM2.5 및 CO2 통합 제어 알고리즘을 개발하고자 하였다. 이를 위해 MLP를 활용한 실내 PM2.5 및 CO2 예측모델을 개발하고, 통합 제어할 수 있는 알고리즘을 개발하였다. 개발된 기술의 성능은 면역력 취약계층인 13세 미만 어린이들이 대부분 시간을 보내는 초등학교에 리빙랩에서 검증되었다. 초등학교는 밀집도와 미세먼지 발생량이 많아 실내공기질 관리가 중요한 공간 중 하나로 분류된다. 실험을 통해 도출된 결과는 다음과 같다.(1) 리빙랩에서 6일 동안 실험한 결과 실내 PM2.5 및 CO2 농도가 통합 제어 알고리즘의 경우 평균 10.73 μg/m3, 1,000.75 ppm, 룰베이스 알고리즘의 경우 평균 13.36 μg/m3, 1,071.39 ppm로 두 알고리즘 모두 환경부 대기환경기준 및 교육부 학교보건법 시행규칙 기준 이하로 제어됨을 확인하였다. 통합 제어 알고리즘이 룰베이스 알고리즘보다 PM2.5 평균 19.69%, CO2 평균 6.59%가량 낮은 농도를 유지하는 것으로 나타났는데, 이는 통합 제어 알고리즘이 룰베이스 제어 알고리즘 보다 제어 성능이 뛰어남을 의미한다.(2) 가동 시간 및 에너지 사용량 비교 결과 통합 제어 알고리즘이 룰베이스 알고리즘 대비 에너지소비량이 9.42% 더 적게 나타났다. 하지만 가동시간은 룰베이스 제어 알고리즘이 2.99% 더 짧았다. 이는 통합 제어 알고리즘의 예측값에 따라 제어되는 특성으로 인한 것으로, 통합 제어 알고리즘이 룰베이스 제어 알고리즘보다 에너지 효율에서 우수한 것을 확인하였다.(3) 통합 제어 알고리즘은 선제적 제어를 통해 룰베이스 알고리즘보다 실내 PM2.5 및 CO2 농도를 더 낮게 유지시키는 것으로 나타났다. 선제적 제어는 실내 오염물질이 기준치 이하로 유지되는 시간 동안 약 668분 간 작동하여 전체 에너지소비량의 약 44%의 비중을 차지하였으며 이를 통해 실내공기질 쾌적에 기여하는 것을 확인하였다.종합하자면, 본 연구에서 개발한 인공지능 기반 예측모델을 활용한 실내공기질 제어 알고리즘은 실내 PM2.5 및 CO2 농도를 선제적으로 제어하여 기존 룰베이스 제어 알고리즘 대비 쾌적한 상태를 더 긴 시간 유지할 수 있으며 더 우수한 에너지 효율을 보인다. 이러한 결과를 통해 해당 기술을 활용 시 선제적 제어를 통해 재실자의 PM2.5 및 CO2 노출을 최소화하고 재실 시간 중 에너지소비량을 저감하여 건물환경 관리 및 제어 분야에 기여할 수 있을 것으로 사료된다. 다만, 본 연구는 실내 환기를 통한 공기질만 제어한 결과로, 냉난방 부하는 고려되지 않았다. 이는 HVAC 에너지소비량 저감을 위해서는 별도의 실내 온습도 예측모델이나 이를 탑재한 HVAC 예측 제어 방안의 개발이 필요함을 의미한다. 따라서, 개발된 기술의 범용적 활용을 위해서는 추가적인 HVAC 제어 알고리즘 개발 및 성능 향상 연구가 추가로 수행되어야 한다. 이를 위해 지속적인 현장 데이터 재학습 및 열, 공기 환경 통합 선제적 제어 로직 개발 연구가 진행될 예정이다.
+PU  - 대한설비공학회
+C6  - Apr. 10.
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+AN  - ART003197646
+AU  - 최현영
+AU  - 황수민
+AU  - 강은진
+AU  - 김예진
+AU  - 양세영
+AU  - 사만 말릭
+AU  - Jebun Naher Keya
+AU  - 이시현
+AU  - 임정호
+C3  - 울산과학기술원
+TI  - 인공지능을 활용한 위성 기반 대기질 모니터링: 연구 현황과 전망
+TT  - Satellite-based Air Quality Monitoring Using Artificial Intelligence: Research Trends and Future Perspectives
+T2  - 한국대기환경학회지
+KW  - Air quality monitoring
+KW  - Artificial intelligence
+KW  - Satellite
+KW  - Remote sensing
+AB  - Advancements in artificial intelligence (AI) and satellite remote sensing have become pivotal in air quality monitoring. This study presents a comprehensive review of 204 papers published between 2015 and 2025, synthesizing key research trends, limitations, and future directions. Based on this review, we identify three principal research approaches: (1) estimating ground-level concentrations from satellite column density products, (2) retrieving these values directly from top-ofatmosphere reflectance, and (3) addressing data gaps in satellite observations to achieve all-sky estimates. Furthermore, we highlight critical challenges identified in previous studies, including nighttime air quality monitoring, uncertainty quantification, consideration of interactions among multiple air pollutants, and the integration of AI techniques for air quality forecasting.Drawing on these findings, we propose targeted research directions to address existing gaps and advance the field. This study enhances the understanding of AI and satellite remote sensing integration, providing a foundation for future advancements in air quality monitoring. The development of a high-resolution, spatiotemporally continuous monitoring framework is expected to improve public health protection and strengthen climate change mitigation efforts.
+PU  - 한국대기환경학회
+C6  - Apr. 30.
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+AN  - ART003184825
+AU  - 변해원
+C3  - 한국기술교육대학교
+TI  - A Health-Promoting Warning System for Outdoor Workers Based on Regularized Rotation Forests and Air Quality Deterioration
+TT  - 
+T2  - 산업과 과학
+KW  - Air Quality Forecasting
+KW  - Normalized Rotation Forest
+KW  - Outdoor Worker Health
+KW  - Environmental Policy
+KW  - Pollution Control
+AB  - This study aims to develop a health-promoting warning system for outdoor workers by predicting air quality levels using the Regularized Rotation Forest model. Utilizing a dataset from Kaggle's Air Quality and Pollution Assessment, the study evaluates the effectiveness of the air quality prediction model, emphasizing the significance of PM2.5, PM10, Temperature, NO2, and CO. The findings reveal that the proposed model demonstrates high accuracy and predictive power, contributing to reducing health risks by providing real-time alerts to outdoor workers. This research provides scientific evidence for improving air quality management and environmental policies and suggests further development of the model through data expansion across diverse regions and conditions and the integration of additional variables.
+PU  - 중소기업융합학회
+C6  - Mar. 30.
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+AN  - ART003174394
+AU  - 정민우
+AU  - 이주용
+AU  - 왕경희
+AU  - 이채연
+AU  - 한승희
+AU  - 김희진
+AU  - 손승민
+AU  - 정필수
+AU  - 최대련
+AU  - 윤희영
+C3  - 안양대학교
+TI  - PM2.5 공간 농도 분포 예측을 위한 Conv-LSTM 기반 AI 모델 개발
+TT  - Development of a Conv-LSTM-Based AI Model for Forecasting PM2.5 Spatial Concentration Distribution
+T2  - 한국대기환경학회지
+KW  - PM2.5 forecast
+KW  - CMAQ
+KW  - Deep Learning Model
+KW  - Conv-LSTM
+AB  - The purpose of this study is to develop an AI model for forecasting the spatial distribution of PM2.5 concentrations over the Korean Peninsula for the next 24 hours. To achieve this, four Conv-LSTM (Convolutional Long Short-Term Memory) based AI models were proposed, and their forecasting performance was compared with that of the CMAQ (Community Multiscale Air Quality) model to identify the most suitable AI model for this task. The proposed AI models share an identical network structure but differ based on the application of the ReLU activation function: Case 1 (no ReLU function applied), Case 2 (ReLU applied to encoder and decoder layers), Case 3 (ReLU applied to the output layer), and Case 4 (ReLU applied to the encoder, decoder, and output layers). The results showed that although the proposed AI models did not outperform the CMAQ model in terms of data characteristic simulation, they exhibited improved prediction accuracy and spatial pattern simulation performance. Specifically, the Case 3 model exhibited the smallest range of RMSE values, with hourly RMSE ranging from 8.16 to 8.76 μg/m3 and spatial RMSE from 6.60 to 7.26 μg/m3. On average, the Case 3 model showed an improvement of 1.81 μg/m3 in RMSE and 1.31 μg/m3 in spatial RMSE over the CMAQ model, demonstrating the best prediction accuracy and spatial pattern simulation performance among the proposed AI models. Therefore, Case 3 was selected as the most suitable AI model for forecasting the 24-hour PM2.5 spatial concentration distribution over the Korean Peninsula. To evaluate the spatial distribution simulation performance of the selected Case 3, the PM2.5 concentrations during the selected high-concentration period were forecasted. The results showed that the model effectively simulated the movement trajectory and distribution, closely resembling the actual data, and accurately forecasted the high-concentration areas. The results of this study suggest that the predictive performance of AI models can vary depending on the use and placement of the ReLU activation function, and demonstrate the potential of the proposed Conv-LSTM-based AI models to overcome the limitations of chemical transport models like the CMAQ model. However, the AI model exhibited limitations in predicting peak concentration values at high-concentration points. Therefore, future research will focus on adjusting the proportion of high-concentration cases to enhance the AI model’s prediction performance.
+PU  - 한국대기환경학회
+C6  - Feb. 28.
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+AN  - ART003180175
+AU  - 고병준
+AU  - 이채원
+AU  - 강태동
+AU  - 최지은
+C3  - Department of Statistics, Sungkyunkwan University
+TI  - SHAP을 활용한 미세먼지 (PM10) 머신러닝 예측 설명
+TT  - SHAP explanation of machine learning forecasting of PM10 concentration
+T2  - 응용통계연구
+KW  - SHAP
+KW  - XAI
+KW  - 미세먼지 예측
+KW  - LSTM
+KW  - GRU
+AB  - 본 논문에서는 머신러닝 기법을 활용한 미세먼지 농도(PM10) 예측모형을 구성하고 Lundberg와 Lee (2017)의 SHAP (shapley additive explanation)을 적용하여 예측모형을 설명한다. SHAP은 설명가능한 AI (eXplainable AI) 기법 중 하나로 협력게임이론(cooperative game theory)에서의 Shapley value를 기반으로 머신러닝 예측모형에서 각 예측변수의 기여도를 분석하는 모형설명도구이다. 미세먼지농도 예측모형으로 기계학습 모형인 GRU (gated recurrent unit) 모형을 고려하고 예측변수로 기상관련 요인(일평균기온, 일평균상대습도, 일평균지면온도, 일강수량, 일평균풍속, 일평균현지기압)과 대기오염 요인(SO2, CO, O3, NO2)을 고려한다. SHAP을 적용한 결과 미세먼지 농도의 시차변수가 예측결과에 가장 많은 영향을 미침을 알 수 있었고 NO2, 일평균기온, O3 순으로 예측결과에 크게 기여함을 확인할 수 있었다.
+PU  - 한국통계학회
+C6  - Feb. 28.
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+AN  - ART003176492
+AU  - 진혜진
+C3  - 국민대학교
+TI  - 생성형 AI와 LLM 기반 공공 데이터 분석 및 의사결정 지원: 대기오염, 교통사고, 백신 접종률 적용 사례
+TT  - Transforming Public Data Analytics with Generative AI and LLMs:Adaptive and Scalable Decision Support
+T2  - 미래기술융합논문지
+KW  - 대기오염
+KW  - 교통사고
+KW  - 백신 접종률
+KW  - 생성형 AI
+KW  - 대형 언어 모델
+KW  - 공공 데이터 분석
+KW  - 적응형 의사결정 지원
+KW  - 데이터 시각화
+AB  - 공공 데이터가 폭발적으로 증가함에 따라 데이터 기반 의사결정의 중요성이 더욱 부각되고 있다. 본 연구에서는 대기오염, 교통사고, 백신 접종률이라는 주요 공공 데이터를 활용하여, 생성형 AI와 대형 언어 모델(LLM)을 결합한 적응형·확장형 공공 데이터 분석 프레임워크를 제안한다. 검증 결과, 교통사고 위험 예측 정확도가 최대 10%p 향상되었고, 대기오염 예측 MAPE가 0.125까지 낮아졌으며, 자동 보고서 생성 및 시각화를 통해 비전문가의 이해도가 40% 이상 향상되었다. 데이터 부족, 모델 편향, ‘블랙박스’ 문제 등 윤리·법적 이슈가 여전히 존재하지만, 본 연구는 공공 정책 의사결정에서 생성형 AI와 LLM이 지닐 수 있는 혁신적 잠재력을 확인하였다.
+PU  - 한국융합학회
+C6  - Feb. 28.
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+AN  - ART003181721
+AU  - 정용진
+AU  - 오창헌
+C3  - 한국기술교육대학교
+TI  - 예측 성능 향상을 위한 SHAP 기반의 기상 요소 및 대기오염물질 데이터 분석
+TT  - SHAP-based Analysis of Meteorological Elements and Air Pollutant Data for Predictive Performance Improvement
+T2  - 한국항행학회논문지
+KW  - Explainable AI
+KW  - SHAP
+KW  - Deep learning
+KW  - Particulate matter
+KW  - Correlation analysis
+AB  - 예측 모델의 성능은 예측 대상과 관련이 없는 데이터를 이용하여 학습할 경우, 좋은 성능을 기대하기 어렵다. 따라서 예측 모델의 학습에 사용되는 데이터의 선정이 중요하다. 원활한 학습을 위해 일반적으로 상관분석을 통해 학습 데이터를 선정한다. 본 논문에서는 상관분석 결과와 SHAP을 이용하여 실제 예측 모델에 영향을 주는 변수들의 분석 결과를 비교하였다. 연구를 위한 데이터는 의 예측을 목적으로 기상 데이터와 대기오염물질 데이터를 사용하였다. SHAP을 이용하여 분석하기 위한 예측 모델은 머신러닝 알고리즘 중 XGBoost를 사용하였다. SHAP value를 이용하여 변수간 예측 값의 기여도를 측정하였다. 상관 분석 결과와 비교하였을 때, 상관 계수의 값이 0인 습도가 예측 모델의 예측 값에 대한 기여도가 두 번째로 높은 것을 확인하였다. SHAP value 기반의 산점도를 보았을 때, 습도의 값이 올라갈수록 예측 값에 대한 기여도가 올라가는 것을 확인하였으며, 학습 데이터 선정 과정에서 상관분석 결과가 유효하지 않은 변수가 있을 수 있음을 확인하였다. SHAP과 상관분석의 결과를 통해 도출된 변수를 이용하여 학습한 예측 모델의 성능 평가를 진행하였으며, 상관분석 결과만 학습한 예측 모델보다 약간의 성능 향상을 확인하였다.
+PU  - 한국항행학회
+C6  - Feb. 28.
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+AN  - ART003152667
+AU  - 이준호
+AU  - 신재우
+C3  - 한신대학교
+TI  - 미세먼지 예측을 위한 머신러닝 모델 비교 연구
+TT  - A Comparative Study on Machine Learning Model for Fine Dust Prediction
+T2  - 한국IT정책경영학회 논문지
+KW  - 미세 먼지
+KW  - 머신러닝
+KW  - 다중회귀
+KW  - RMSE
+AB  - 최근 미세먼지는 국민의 건강을 위협하는 사회적 문제로 떠오르고 있다. 코로나19의 문제에서 자유로워진 요즘 마스크의 필요성이 떨어지며 국민이 다시 미세먼지에 노출되고 있다. 미세먼지는 여러 폐질환과 뇌질환 등 심각한 질병을 발생할 수 있어, 특히 주의가 필요하다. 이러한 미세먼지 데이터를 분석해 위협을 대비하기 위한 목적으로 본 연구는 머신러닝을 기반으로 기후, 대기질 데이터를 이용한 미세먼지(PM10) 예측 모델을 제안한다. 다중회귀분석을 통하여 변수들의 유의성을 확인하고 7가지의 머신러닝 모델을 대상으로 RMSE 값을 도출하여 비교분석하였다. 비교한 결과, 선형회귀, SVM, 랜덤포레스트 모델이 상대적으로 좋은 성능을 내는 것을 확인하였다. 본 연구는 향후에 미세먼지 데이터를 통해 예측정확도를 높여 미세먼지 위협에 대비하는 데 기여할 것으로 예상한다.
+PU  - 한국IT정책경영학회
+C6  - Dec. 31.
+PY  - 2024
+ER  - 
+
+TY  - JOUR
+AN  - ART003160679
+AU  - 이재원
+AU  - 인치호
+C3  - 세명대학교
+TI  - 딥러닝 및 패치 기반 커널 PCA를 이용한 미세먼지 추정
+TT  - A Particulate Matter Estimation Using Deep Learning and Patch-Based Kernel PCA
+T2  - 지능정보논문지
+KW  - Patch-based Kernel PCA
+KW  - Deep Learning
+KW  - Particulate Matter Prediction
+AB  - 본 연구는 이미지 기반 미세먼지(PM2.5 및 PM10) 농도 예측을 위해 패치 기반 커널 PCA와 딥러닝을 이용한미세먼지 추정 방법론을 제안한다. 커널 PCA는 이미지의 비선형적 특징을 효과적으로 추출하고, CNN 모델은 이를 학습하여 높은 예측 성능을 달성한다. 강화 학습 기반 마스크 최적화와 다중 커널 통합을 통해 예측 정확도와 학습 효율성을 향상했으며, 다양한 환경에서 일관된 성능을 유지했다. 실험 결과, 제안된 방법론은 기존 센서 기반 방법보다 넓은범위에서 실시간 모니터링이 가능하며, 저사양 하드웨어에서도 우수한 실시간 성능을 보여준다. 향후 연구는 다양한 환경에서의 데이터 수집과 모델 최적화를 통해 실시간 응용 가능성을 더욱 높이는 데 주력할 것이다.
+PU  - 국제인공지능학회
+C6  - Dec. 31.
+PY  - 2024
+ER  - 
+
+TY  - JOUR
+AN  - ART003061846
+AU  - 이권호
+AU  - 표성훈
+AU  - Man Sing Wong
+C3  - 강릉원주대학교
+TI  - Spatiotemporal aerosol prediction model based on fusion of machine learning and spatial analysis
+TT  - 
+T2  - Asian Journal of Atmospheric Environment
+KW  - Satellite
+KW  - Aerosol
+KW  - Machine learning
+KW  - Spatial analysis
+KW  - Remote sensing
+AB  - This study examined long-term aerosol optical thickness (AOT) data from the Moderate Resolution Imaging Spectroradiometer (MODIS) to quantify aerosol conditions on the Korean Peninsula. Time-series machine learning (ML) techniques and spatial interpolation methods were used to predict future aerosol trends. This investigation utilized AOT data from Terra MODIS and meteorological data from Automatic Weather System (AWS) in eight selected cities in Korea (Gangneung, Seoul, Busan, Wonju, Naju, Jeonju, Jeju, and Baengyeong) to assess atmospheric aerosols from 2000 to 2021. A machine-learning-based AOT prediction model was developed to forecast future AOT using long-term observations. The accuracy analysis of the AOT prediction results revealed mean absolute error of 0.152 ± 0.15, mean squared error of 0.048 ± 0.016, bias of 0.002 ± 0.011, and root mean squared error of 0.216 ± 0.038, which are deemed satisfactory. By employing spatial interpolation, gridded AOT values within the observation area were generated based on the ML prediction results. This study effectively integrated the ML model with point-measured data and spatial interpolation for an extensive analysis of regional AOT across the Korean Peninsula. These findings have substantial implications for regional air pollution policies because they provide spatiotemporal AOT predictions.
+PU  - 한국대기환경학회
+C6  - Dec. 31.
+PY  - 2024
+ER  - 
+
+TY  - JOUR
+AN  - ART003146644
+AU  - 김진희
+AU  - 황현석
+C3  - 한림대학교 디지털콘텐츠융합스쿨
+TI  - 기계학습을 이용한 미세먼지 측정 음영지역의 농도 예측 연구
+TT  - Predicting Concentrations of Particulate Matter in Shaded Areas using Machine Learning
+T2  - 디지털콘텐츠학회논문지
+KW  - 미세먼지
+KW  - 음영지역
+KW  - 예측
+KW  - 기계학습
+KW  - 성능비교
+AB  - 본 연구는 미세먼지 측정소가 없는 지역의 미세먼지 농도를 예측하고자 한다. 정확한 미세먼지 농도를 예측하기 위해 기계학습 기법인 다중선형회귀, 서포트 벡터 머신(Support Vector Machine), 의사결정나무(decision tree), 랜덤포레스트(Random Forest), XGBoost, TabNet 6가지를 분석에 이용하였다. 미세먼지 측정소가 없는 지역의 농도 값을 예측하기 때문에 실제 값을 존재하지 않아 기존 측정소의 미세먼지 농도를 실제 값으로 하여 예측 값과 비교하였다. 미세먼지 농도인 PM2.5와 PM10을 종속변수로 두었고, 주변 측정소 5개의 PM2.5, PM10의 측정값과 SO2, CO, NO2, O3와 기상관측 값인 평균기온, 일강수량, 평균풍속을 독립변수로 설정하였다. 종속변수 PM2.5와 PM10을 기준으로 독립변수를 조합하여 각각 6가지 모형을 설정하여 미세먼지 농도 예측을 진행하였다. 연구 결과 PM2.5와 PM10의 예측에서 공통적으로 XGBoost 기법을 사용한 경우가 가장 낮은 RMSE 값으로 우수한 성능을 보였으며, PM2.5의 예측에 Model 3을 사용하고 PM10의 예측에는 Model 12을 사용한 경우로 나타났다.
+PU  - 한국디지털콘텐츠학회
+C6  - Dec. 31.
+PY  - 2024
+ER  - 
+
+TY  - JOUR
+AN  - ART003057315
+AU  - 박신영
+AU  - 이혜원
+AU  - Kwon Jaymin
+AU  - 윤성원
+AU  - 이철민
+C3  - 서경대학교
+TI  - Proposal of a methodology for prediction of heavy metals concentration based on PM2.5 concentration and meteorological variables using machine learning
+TT  - 
+T2  - Asian Journal of Atmospheric Environment
+KW  - Prediction model
+KW  - Ensemble model
+KW  - Artificial neural networks
+KW  - Heavy metals
+KW  - PM2.5
+KW  - Meteorological factors
+AB  - In this study, we developed a prediction model for heavy metal concentrations using PM2.5 concentrations and meteorological variables. Data was collected from five sites, encompassing meteorological factors, PM2.5, and 18 metals over 2 years. The study employed four analytical methods: multiple linear regression (MLR), random forest regression (RFR), gradient boosting, and artificial neural networks (ANN). RFR was the best predictor for most metals, and gradient boosting and ANN were optimal for certain metals like Al, Cu, As, Mo, Zn, and Cd. Upon evaluating the final model’s predicted values against the actual measurements, differences in the concentration distribution between measurement locations were observed for Mn, Fe, Cu, Ba, and Pb, indicating varying prediction performances among sites.Additionally, Al, As, Cd, and Ba showed significant differences in prediction performance across seasons. The developed model is expected to overcome the technical limitations involved in measuring and analyzing heavy metal concentrations. It could further be utilized to obtain fundamental data for studying the health effects of exposure to hazardous substances such as heavy metals.
+PU  - 한국대기환경학회
+C6  - Dec. 31.
+PY  - 2024
+ER  - 
+
+TY  - JOUR
+AN  - ART003160922
+AU  - Sreenivasulu T.
+AU  - Rayalu G. Mokesh
+C3  - Vellore Institute of Technology
+TI  - Enhanced PM2.5 prediction in Delhi using a novel optimized STL-CNN-BILSTM-AM hybrid model
+TT  - 
+T2  - Asian Journal of Atmospheric Environment
+KW  - Convolutional neural network
+KW  - BILSTM
+KW  - Delhi
+KW  - PM2.5
+KW  - Time-series forecasting
+AB  - Accurate air pollution predictions in urban areas facilitate the implementation of efficient actions to control air pollution and the formulation of strategies to mitigate contamination. This includes establishing an early warning system to notify the public. Creating precise estimates for PM2.5 air pollutants in large cities is a challenging task because of the numerous relevant factors and quick fluctuations. This study introduces a novel hybrid model named STL-CNN-BILSTM-AM. It combines the seasonal-trend decomposition method with LOESS (STL) to simplify learning tasks and increase prediction accuracy for complex, nonlinear time-series data. Convolutional neural networks (CNNs) extract features from decomposed components of PM2.5 and other feature variables, such as pollutants and meteorological variables. Bidirectional long-short-term memory (BILSTM) uses these features to extract temporal relationships, enabling the forecasting of daily PM2.5 levels at four locations in Delhi. This hybrid model uses attention mechanisms to extract the most significant information, as well as Bayesian optimization to tune the hyperparameters. The suggested model greatly improved performance in all four regions used in this study, as evidenced by the findings. We compared it with the CNN-BILSTM, BILSTM, LSTM, and CNN models, and the suggested model outperformed the state-of-the-art models by utilizing STL decomposition components and other features. The overall results show that the STL-CNN-BILSTM-AM is better at predicting air quality, especially the concentration of PM2.5 in cities when the data has a high seasonal trend and is complex.
+PU  - 한국대기환경학회
+C6  - Dec. 31.
+PY  - 2024
+ER  - 
+
+TY  - JOUR
+AN  - ART003135302
+AU  - 정용진
+AU  - 오창헌
+C3  - 한국기술교육대학교 전기전자통신공학과
+TI  - SHAP을 활용한 PM2.5 예측 모델 성능 및 변수 영향력 분석
+TT  - PM2.5 Prediction Model Performance and Variable Impact Analysis Using SHAP
+T2  - 한국항행학회논문지
+KW  - SHAP
+KW  - Deep learning
+KW  - LSTM
+KW  - Particulate matter
+AB  - 본 논문에서는 SHAP을 사용하여 변수들이 예측 값에 어떠한 영향을 주었는지 분석하였다. DNN과 LSTM 알고리즘을 사용하여 에 대한 예측 모델을 설계하였다. 학습 및 테스트 데이터는 기상데이터와 대기오염물질데이터를 상관분석을 통해 선별하여 구성하였다. 두 예측 모델에 대해 RMSE와 AQI의 범주에 대한 정확도를 확인하였으며, SHAP을 이용하여 두 모델의 예측 값에 대해 변수들의 기여도를 확인하였다. 공통적으로 대기오염물질 데이터가 를 예측 하는 과정에서 기여도가 높은 것을 확인하였으며, 기상 데이터 중 온도가 두 모델의 예측 과정에서 기여도가 높은 것을 확인하였다. 그리고 기여도에 따른 영향력을 확인하였을 때, 두 모델이 공통적으로 온도, 풍속, 해면기압이 값이 높을 때 예측 값을 감소시키는 영향을 주며, 값이 낮을 때 예측 값을 증가시키는 영향을 주었다. , , 의 경우 DNN 예측 모델과는 달리 LSTM 예측 모델에서는 값이 높을 때 예측 값의 양방향으로 영항을 주는 것을 확인하였다.
+PU  - 한국항행학회
+C6  - Oct. 31.
+PY  - 2024
+ER  - 
+
+TY  - JOUR
+AN  - ART003131833
+AU  - 이예지
+AU  - 나이슬
+AU  - 손영규
+C3  - 금오공과대학교
+TI  - 중소도시 미세먼지 농도 예측을 위한 머신러닝 기법 적용 가능성 평가
+TT  - Evaluation of Machine Learning Application on the Prediction of Particulate Matter Concentrations in Small/Medium-Sized City
+T2  - 대한환경공학회지
+KW  - 머신러닝
+KW  - 대기오염
+KW  - PM10
+KW  - PM2.5
+KW  - XGB 모델
+AB  - 목적:본 연구는 중소도시의 대기환경 및 기상 데이터를 이용하여 미세먼지(PM10 및 PM2.5) 농도를 예측하는 머신러닝 모델의 성능을 평가하였다.방법:Multiple Linear Regression (MLR), Decision Tree Regression (DTR), Random Forest (RF), Extreme Gradient Boosting (XGB), Light Gradient Boosting Machine (LGB)의 5개 머신러닝 모델을 이용하여 PM10과 PM2.5 농도를 예측하였다. 2017년부터 2022년까지 5개의 대기환경 데이터(NO2, SO2, CO, PM10, PM2.5)와 7개의 기상 데이터(기온, 습도, 증기압, 풍속, 강수량, 현지기압, 해면기압)를 3개의 대기질 측정소와 1개의 기상대에서 수집하였고, 이를 머신러닝 학습, 검증, 테스트 자료로 사용하였다. 머신러닝 예측 성능은 Root Mean Squared Error(RMSE), Mean Absolute Error(MAE), Coefficient of determination(R2)의 3가지 성능 평가 지표를 이용하여 정확도를 평가하였다.결과 및 토의:미세먼지(PM10 및 PM2.5) 농도 예측에서 입력 변수에 예측하고자 하는 미세먼지 정보가 포함된 데이터셋을 학습한 모델이 그렇지 않은 모델보다 더 높은 예측 성능을 보였다. XGB 모델이 다른 머신러닝 모델들 보다 대부분의 경우에 가장 우수한 성능을 나타내었다. 그러나 미세먼지 농도를 예측하는 시간이 길어질수록 모든 머신러닝의 예측 정확도가 크게 감소하였다.결론:본 연구에서 머신러닝 기법을 이용한 1시간 후의 미세먼지(PM10 및 PM2.5) 농도 예측은 충분히 적용 가능한 수준의 결과로 확인되었다. 그러나 장기간의 미세먼지를 예측하기 위해서는 딥러닝 모델을 적용하거나 미세먼지 농도에 영향을 미치는 추가적인 영향 인자 데이터를 확보하여 적용하는 것이 필요할 것이다.
+PU  - 대한환경공학회
+C6  - Oct. 31.
+PY  - 2024
+ER  - 
+
+TY  - JOUR
+AN  - ART003132421
+AU  - 최정무
+AU  - 권장우
+AU  - 이준표
+AU  - 이선우
+AU  - 박정민
+AU  - 신혜정
+AU  - 안찬중
+AU  - 강소영
+C3  - 인하대학교 컴퓨터공학과
+TI  - 딥러닝 모델 기반의 자동차 배출가스 관련 대기환경 이상 데이터 탐지 연구
+TT  - A Study on Detecting Abnormal Air Quality Data Related to Vehicle Emissions Using a Deep Learning Model
+T2  - 한국ITS학회 논문지
+KW  - 이상치 탐지
+KW  - 시계열 데이터 분류
+KW  - 대기질
+KW  - 환경
+AB  - 자동차는 주요 대기 오염원 중 하나로 작용하고 있으며 자동차가 주 오염원인 대기오염물질 데이터의 분석을 통해 전기자동차, 교통량 등과 실제 대기오염의 상관관계를 분석할 수 있으며, 이러한 분석을 위해선 대기오염물질 데이터의 신뢰성 확보가 중요하다. 본 논문은 딥러닝 모델과 동적 시간 와핑, 변화점 탐지 등의 알고리즘을 복합적으로 이용하여 전국 각지의대기오염물질 측정소에서 측정되는 데이터 중 ‘베이스라인 이상’ 증상이 나타나는 구간을 탐지하는 방법을 제시한다. 기존 연구들은 이전에 없던 패턴이 나타나는 데이터를 탐지하여 이상으로 정의하지만 이는 베이스라인 이상 탐지에는 적합하지 않았다. 본 논문에서는 주로 이미지 분할(Segmentation)에 사용되는 Unet모델을 시계열 데이터에 적합하도록 변형하여 사용하고 있으며 또한 동적 시간 와핑과 변화점 탐지 알고리즘을 적용하여 주변 측정소와 적절한 비교를 진행하고 이를 통해 오탐지를 최소화하였다.
+PU  - 한국ITS학회
+C6  - Oct. 31.
+PY  - 2024
+ER  - 
+
+TY  - JOUR
+AN  - ART003109622
+AU  - 심흥섭
+C3  - 동양대학교 컴퓨터 군사학과
+TI  - 인공지능 평가 모델 기반의 미세먼지, 대기질 관리시스템의 적합성 검증
+TT  - Verification of the Suitability of Fine Dust and Air Quality Management Systems Based on Artificial Intelligence Evaluation Models
+T2  - 한국컴퓨터정보학회논문지
+KW  - 데이터품질
+KW  - 데이터전처리
+KW  - 랜덤포래스트
+KW  - 머신러닝
+KW  - 모델성능평가
+AB  - 본 연구는 인공지능 평가 모델을 활용하여 양주시의 대기질 관리 시스템의 정확성을 검증하는데 목적이 있다. 환경부 미세먼지 공공 데이터와 양주시 대기질 관리 시스템 데이터를 비교하여미세먼지 데이터의 정합성과 신뢰성을 평가하였다, 이를 위해 데이터의 완전성, 유일성, 유효성, 일관성, 정확성, 무결성을 분석하였다. 데이터의 정합성을 비교하기 위해 탐색적 통계 분석을 활용하였다. 분석 결과, AI 기반 데이터 품질 지수 평가 결과, 두 데이터 세트 간에 통계적으로 유의미한 차이가 없음을 확인하였다. AI 기반 알고리즘 중 랜덤 포레스트 모델이 가장 높은 예측정확도를 보였으며, ROC 커브와 AUC를 통해 예측 성능을 평가하였다. 특히, 랜덤 포레스트 모델은 대기질 관리 시스템의 최적화에 유용한 모델로 확인되었으며, 미세먼지 데이터의 신뢰성과 적합성을 AI 기반 모델 성능 평가로 활용할 수 있음을 확인하였다.
+PU  - 한국컴퓨터정보학회
+C6  - Aug. 30.
+PY  - 2024
+ER  - 
+
+TY  - JOUR
+AN  - ART003104113
+AU  - 이승민
+AU  - 박대진
+C3  - 경북대학교
+TI  - LSTM 기반 후처리를 이용한 SVD 기반 미세먼지 농도 디지털 트위닝의 노이즈 억제 향상
+TT  - Noise Reduction Enhancement of SVD-based Particulate Matter Digital Twinning using LSTM-based Post-processing
+T2  - 한국정보통신학회논문지
+KW  - 디지털 트윈
+KW  - 노이즈 억제
+KW  - 인공신경망
+KW  - 장단기 메모리
+AB  - 본 연구는 미세먼지 농도 측정을 위한 저비용 센서의 정확성과 신뢰성 향상을 목표로 한다. 미세먼지 농도를 측정 센서 장비는 고비용이며, 먼지 개수를 먼지 농도로 보정하는 전달 함수는 복잡하고 알려지지 않는다. 기존 연구는 특이값 분해를 이용하여 효과적인 전달 행렬을 얻을 수 있었지만, 저비용 센서에서 측정된 노이즈 정보도 함께 전달된다. 본 연구에서는 노이즈 억제를 위한 필터로 장단기 메모리를 이용하여, 고비용 레퍼런스 장비에서 측정된 데이터의 흐름을 효과적으로 모방한다. 실험 결과, 기존 필터들은 약 20% 정도의 노이즈를 억제하였으며, 제안한 장단기 메모리는 약 50% 정도의 노이즈를 억제하였다. 또한, 불연속적인 동작에서 동작 초기 데이터를 5회 반복학습한 결과, 초기 데이터에서 발생하는 상대오차를 10% 이내로 크게 감소시킴으로써 초기 딜레이를 크게 줄일 수 있었다.
+PU  - 한국정보통신학회
+C6  - Jul. 31.
+PY  - 2024
+ER  - 
+
+TY  - JOUR
+AN  - ART003091436
+AU  - 민동준
+AU  - 김혜림
+AU  - 이상근
+C3  - 고려대학교 정보보호대학원 정보보호학과
+TI  - 경향성 변화에 대응하는 딥러닝 기반초미세먼지 중기 예측 모델 개발
+TT  - Development of a Deep Learning-based Midterm PM2.5 Prediction Model Adapting to Trend Changes
+T2  - 정보처리학회 논문지
+KW  - 초미세먼지
+KW  - PM2.5
+KW  - 시계열 예측
+KW  - 딥러닝
+KW  - 앙상블
+AB  - 초미세먼지, 특히 지름이 2.5㎛ 이하인 PM2.5는 인체 건강과 경제에 큰 피해를 주는 오염물질이다. 본 연구는 대한민국 서울 지역을 중심으로,2017년부터 2022년까지 자료를 수집하여 PM2.5 데이터 분석 및 데이터 경향성 변화 추이를 분석하고, PM2.5 중기 예측 모델을 개발하는 것을목표로 한다. 수집, 생산된 대기질 및 기상 데이터, 재분석 데이터, 수치모델 예측 데이터를 바탕으로, 모델을 학습하고 이를 통합한 경향성변화에도 대응할 수 있는 앙상블 기법을 제안한다. 본 연구에서 제안하는 앙상블 기법은 PM2.5 농도 예측 성능 면에서 기존 모델 대비 미래D+3~D+6 예측일 F1 Score 기준 평균 2019년 약 42.16%, 2021년 약 58.92%, 2022년 약 34.79% 높은 성능을 보였다. 제안한 모델은 변화하는환경 조건에도 성능을 유지함으로써 안정적인 예측을 가능하게 하며, 기존 딥러닝 기반 PM2.5 단기 예측보다 먼 예측을 수행하는 중기 예측모델을 제시한다.
+PU  - 한국정보처리학회
+C6  - Jun. 30.
+PY  - 2024
+ER  - 
+
+TY  - JOUR
+AN  - ART003084537
+AU  - 유숙현
+C3  - 안양대학교
+TI  - 계층 관련성 전파와 DNN을 이용한 PM2.5 예보 지수별 입력 인자의 기여도 특성 분석
+TT  - Analysis of Input Factor Contributions Characteristics by Index in PM2.5 Forecast Using Layer-wise Relevance Propagation and DNN
+T2  - 멀티미디어학회논문지
+KW  - Deep Neural Network
+KW  - Layer-Wise Relevance Propagation
+KW  - Explainable Artificial Intelligence
+KW  - PM2.5 Forecasting Model
+AB  - In this study, we developed a DNN forecast model to predict PM2.5 for the next three days and used Layer-wise Relevance Propagation to investigate the contributions of input factors to the forecast results. We classified the prediction results into 16 indices to assess the contributions of input factors. As a result, pressure, temperature, dew point, relative humidity, U, and V showed the highest contributions across indices, regardless of the specific index. Followed by O3, NO2, and CO exhibited high contributions, while accumulated precipitation and PM10 had the lowest contributions. Radiation and O3 showed high contributions in low-concentration indices, but conversely exhibited low contributions in high-concentration indices. Low-concentration index ranges showed similar contributions to the overall index, while in high-concentration index ranges, the contribution of forecast PM2.5 at the forecast time slot increased. Index ranges where low concentrations were incorrectly forecasted resembled high-concentration indices except for relative humidity, NO2, and CO, whereas index ranges where high concentrations were incorrectly predicted exhibited significant temporal variations in the contribution of radiation. These characteristics of input factor contributions to forecast results are ex
+PU  - 한국멀티미디어학회
+C6  - May. 31.
+PY  - 2024
+ER  - 
+
+TY  - JOUR
+AN  - ART003058484
+AU  - 정용진
+AU  - 오창헌
+C3  - 한국기술교육대학교 전기전자통신공학과
+TI  - 계절별 데이터와 농도별 데이터의 학습에 대한 LSTM 기반의 PM2.5 예측 모델 성능 평가
+TT  - Performance Evaluation of LSTM-based PM2.5 Prediction Model for Learning Seasonal and Concentration-specific Data
+T2  - 한국항행학회논문지
+KW  - Deep learning
+KW  - LSTM
+KW  - Correlation analysis
+KW  - Particulate matter
+AB  - 미세먼지에 대한 연구는 실시간으로 발전하고 있으며, 예측 모델의 정확도를 향상시키기 위해 다양한 방법이 연구되고 있다. 또한 미세먼지의 정확한 원인과 영향을 파악하기 위해 이러한 다양한 요소들을 고려하는 연구들이 활발히 이루어지고 있다. 본 논문에서는 와 상관성이 있는 데이터를 계절을 기준으로 구분하여 학습하는 예측 모델과 특정 농도를 기준으로 저농도와 고농도를 구분하여 학습하는 모델을 통해 예측 성능의 비교 및 분석을 진행하였다. 기상데이터와 대기오염 물질 데이터를 사용하였으며 와 상관관계를 확인하여 학습 및 평가를 위한 데이터를 구성하였다. 계절별 예측 모델과 농도별 예측 모델은 LSTM으로 설계하였으며, 세부 파라미터는 하이퍼 파라미터 탐색을 통해 적용하였다. 예측 모델의 성능 평가는 정확도, RMSE, MAPE, 저농도와 고농도 구간에서의 정확도 그리고 AQI를 기준으로 4개의 범위에 대한 정확도로 진행하였다. 성능 평가 결과, 농도별 학습을 진행한 예측 모델이 AQI 기준 “나쁨” 구간의 정확도에서 91.02%의 정확도를 보였으며, 계절별 학습을 진행한 예측 모델보다 전반적으로 좋은 성능을 보였다.
+PU  - 한국항행학회
+C6  - Feb. 28.
+PY  - 2024
+ER  - 
+
+TY  - JOUR
+AN  - ART003056153
+AU  - 이재원
+AU  - 인치호
+C3  - 세명대학교
+TI  - 빅데이터 기반 미세먼지 이상 탐지 머신러닝 시스템 설계 및 구현
+TT  - Design and Implementation of Machine Learning System for Fine Dust Anomaly Detection based on Big Data
+T2  - 지능정보논문지
+KW  - Big Data
+KW  - Fine Dust
+KW  - Anomaly
+KW  - Machine Learning
+AB  - 본 논문은 빅데이터 기반 미세먼지 이상 탐지 머신러닝 시스템 설계 및 구현을 제안한다. 제안하는 시스템은 빅데이터로 구성된 미세먼지 및 기상 정보를 통해 미세먼지 대기환경지수를 분류하는 시스템이다. 이 시스템은 머신러닝 기반의 대기환경지수 분류 카테고리별 이상치에 따른 이상치 탐지 알고리즘 설계를 통해 미세먼지를 분류한다. 카메라에서 수집된 영상의 심도 데이터는 미세먼지 농도에 따른 영상을 수집한 후 미세먼지 가시마스크를 생성합니다. 그리고 모노 심도 추정 알고리즘을 통한 학습 기반 핑거프린팅 기법으로 모노스코프 카메라에서 수집된 미세먼지의 가시거리를 추론하여 미세먼지 농도를 도출합니다. 본 방법의 실험 및 분석을 위해 미세먼지 농도 데이터와 지역별, 시간별 CCTV 영상 데이터를 매칭하여 학습 데이터를 생성한 후 모델을 생성하여 실제 환경에서 테스트한다.
+PU  - 국제인공지능학회
+C6  - Feb. 29.
+PY  - 2024
+ER  - 
+
+TY  - JOUR
+AN  - ART003042623
+AU  - Mingdong Li
+AU  - Zhixin Liu
+AU  - Shuai Yin
+AU  - Joon Phil Choi
+AU  - Haining Zhang
+C3  - Suzhou University
+TI  - Comparison and Identification of Optimal Machine Learning Model for Rapid Optimization of Printed Line Characteristics of Aerosol Jet Printing Technology
+TT  - 
+T2  - International Journal of Precision Engineering and Manufacturing-Green Technology
+KW  - Machine learning
+KW  - Multi-objective optimization
+KW  - Electrical conductivity
+KW  - Printed line quality
+KW  - Aerosol jet 3d printing
+AB  - Among the various direct-write (DW) techniques, aerosol jet printing (AJP) has the advantages of high resolution (~ 10 μm) and flexible working distance (2-5 mm). On this basis, it has emerged as a promising DW technology to precisely customize complex electrical functional devices. However, the micro-electronic devices fabricated using AJP suffer from low electrical performance because of inferior printed line geometric characteristics. Specifically, high edge roughness lines are detrimental to the uniformity of the formed electrical functional devices. In addition, the low controllability of the printed line width may induce overlap of narrowly spaced circuits or unnecessary intertrack voids, which will hinder the wide application of AJP technology in advanced electronic manufacturing industry. Therefore, ensuring high precision of the line width and low edge roughness is of primary importance for AJP technology. In this research, a machine learning framework is proposed for rapid optimization of printed line characteristics. In the proposed framework, SHGFR and CGFR were considered as input variables, and line width and line roughness were taken as the target responses. Three representative machine learning algorithms, tree-based random forest regression, kernel-based support vector machine, and Bayesian-based Gaussian process regression, were then adopted for model development. Subsequently, the identified optimal machine learning model was integrated with a NSGA-III for rapid optimization of printed line characteristics, and experiments validated the effectiveness of the adopted approach.
+PU  - 한국정밀공학회
+C6  - Jan. 1.
+PY  - 2024
+ER  - 
+
+TY  - JOUR
+AN  - ART003026890
+AU  - 이권호
+C3  - 국립강릉원주대학교
+TI  - 강릉 지역의 주야간 에어로솔 광학 특성과 머신러닝을 이용한 예측
+TT  - Day and Night Aerosol Optical Properties in Gangneung and their Prediction using Machine Learning
+T2  - 한국대기환경학회지
+KW  - Machine learning
+KW  - Lunarphotometer
+KW  - Aerosol optical depth
+KW  - Angstrom exponent
+KW  - Sunphotometer
+AB  - This study reports the results of a statistical analysis of day and night aerosol optical properties measured from the Cimel CE318-T sun-lunar-photometer operated at Gangneung-Wonju National University (37.771°N, 128.867°E) from January 2015 to December 2022. Aerosol observations during the day and night are an important means of monitoring aerosols during the diurnal cycle, and we aimed to use these observations to the study of regional aerosol properties. In addition, since long-term observations can be used to predict current and future variations through machine learning-based time series analysis technique, the optimal modeling technique was determined and future predictions were presented.Statistical analysis of the day and night observations showed that daily and seasonal aerosol optical depth at 500 nm wavelength (AOD500) and angstrom exponent at 440 nm and 675 nm wavelengths (AE440_675) are characterized by similar patterns, respectively. More specifically, the AOD500 and AE440_675 datasets observed at night range approximately 5.7% and 1.9% higher than the observed during day. Additionally, for modeling time series analysis with long-term aerosol observations, the computation of auto regressive moving average models among machine learning techniques was applied and evaluated by analyzing the differences in the results. Pairwise comparisons, correlation coefficients, root mean square errors, and mean bias also supported the reliability of the data. The results also showed that the Seasonal AutoRegressive Integrated Moving Average with Exogenous Variables (SARIMAX) model was the most accurate, and future predictions were compared.
+PU  - 한국대기환경학회
+C6  - Dec. 31.
+PY  - 2023
+ER  - 
+
+TY  - JOUR
+AN  - ART003017640
+AU  - 장성봉
+C3  - 금오공과대학교
+TI  - 증강형 딥러닝 기반 미세먼지 예측 시스템
+TT  - Dust Prediction System based on Incremental Deep Learning
+T2  - 문화기술의 융합
+KW  - 실시간 기계 학습
+KW  - 딥러닝
+KW  - 증강형 데이터
+KW  - 심층 신경망
+AB  - 딥러닝은 심층신경망(Deep Neural Network)을 구축하고 대량의 훈련 데이터를 수집한 후, 구축된 신경망을 오랫동안 학습 시켜야 한다. 만약, 학습이 제대로 진행되지 않거나 과적합이 발생하면, 학습은 실패하게 된다. 현재까지 개발되고 있는 딥러닝 도구들을 사용할 경우, 훈련데이터 수집과 학습에 많은 시간이 소요된다. 하지만, 모바일 환경의 급격한 도래와 센서 데이터의 증가로 인해, 신경망 학습에 걸리는 시간을 획기적으로 줄일 수 있는 실시간 증강형 딥러닝 기술에 대한 요구가 급격하게 증가하고 있다. 본 연구에서는 미세먼지 센서를 장착한 아두이노 시스템을 사용하여 실시간 증강형 딥러닝 시스템을 구현 하였다. 구현된 시스템에서는 미세먼지 데이터를 5초마다 측정하고 최대 120개가 축적이 되면, 기존에 축적된 데이터와 새로이 축적된 데이터를 데이터셋으로 사용하여 학습을 수행하도록 하였다. 학습 수행을 위한 신경망은 입력층 1개, 은닉층 1개, 출력등 1개로 구성하였다. 구현된 시스템에 대한 성능을 평가하기 위해 학습 시간과 평균 제곱근 오차(root mean square error, RMSE)를 측정 하였다. 실험 결과, 평균 학습 오차는 0.04053796이었으며, 학습 주기당(1 에포크) 평균 학습 시간은 3,447 초 정도의 시간이 걸렸다.
+PU  - 국제문화기술진흥원
+C6  - Nov. 30.
+PY  - 2023
+ER  - 
+
+TY  - JOUR
+AN  - ART003019430
+AU  - 김선겸
+AU  - 장봉주
+AU  - 정인택
+C3  - 한국건설기술연구원
+TI  - 인공지능을 활용한 에코 델타 시티 초미세먼지 예측
+TT  - Prediction of Utrafine Dust in Eco Delta City Using Artificial Intelligence
+T2  - 멀티미디어학회논문지
+KW  - Fine Dust
+KW  - PM2.5
+KW  - Prediction
+KW  - Artificial Intelligence
+KW  - Eco Delta City
+AB  - e purpose of this study is to contribute to improving the environment of Eco Delta City by predicting fine dust concentrations using artificial intelligence in Eco Delta City, Busan collected from public observatories. To this end, we collected air quality and weather data from the national measurement network Air Korea and the Meteorological Data Open Portal for the past two years from 2021 to 2022, and collected PM2.5, PM10, SO2, NO2, CO, O3, and temperature in Eco Delta City, the correlation between humidity, wind direction, wind speed, and precipitation variables was identified. In addition, hourly PM2.5 concentrations in Eco Delta City were predicted using Random Forest, XGBoost and DNN.s a result of the prediction, the RMSE values were 3.676, 1.884, and 3.663, respectively, showing very high performance in all individual models compared to the Air Korea prediction model of 5.983. In particular, the XGBoost model showed results that were about 68.5% higher than the Air Korea model
+PU  - 한국멀티미디어학회
+C6  - Nov. 30.
+PY  - 2023
+ER  - 
+
+TY  - JOUR
+AN  - ART003025370
+AU  - 구윤서
+AU  - 권희영
+AU  - 배효식
+AU  - 윤희영
+AU  - 최대련
+AU  - 윤석현
+AU  - 왕경희
+AU  - 구지석
+AU  - 이재범
+AU  - 최민혁
+AU  - 이정범
+C3  - 안양대학교
+TI  - A Development of PM2.5 Forecasting System in South Korea Using Chemical Transport Modeling and Machine Learning
+TT  - 
+T2  - Asia-Pacific Journal of Atmospheric Sciences
+KW  - PM2.5 · forecast · machine learning · DNN · RNN · CNN
+AB  - Ambient exposure to PM2.5 can adversely affect public health, and forecasting PM2.5 is essential for implementing protectionmeasures in advance. Current PM2.5 forecasting systems are primarily based on the chemical transport model of CommunityMultiscale Air Quality (CMAQ) modeling systems and the Weather Research and Forecasting (WRF) model. However, theforecasting accuracies of these models are substantially constrained by uncertainties in the input data of anthropogenic emissionsand meteorological fields, as well as inherent limitations in the models. The PM2.5 forecasting system developed inthis study aimed at overcoming the limitations of CMAQ predictions by utilizing advanced machine learning algorithms. Theproposed system was developed using forecast data from CMAQ and WRF, as well as observed PM2.5 concentrations andmeteorological variables at monitoring stations in China and South Korea. It was then applied to national PM2.5 forecastingin South Korea. This study focused on developing secondary input data and machine learning models that can reflect thelong-range transport in Northeast Asia. The proposed system can forecast 6-h average PM2.5 concentrations up to two daysin advance at 19 forecast regions in South Korea. To evaluate the performance of the proposed models, a real-time machinelearning-based forecasting system was applied to 19 forecasting regions from January 2020 to April 2021. Herein, the fourmachine learning algorithms applied, including deep neural network, recurrent neural network, convolutional neural network,and Ensemble, could reduce the over-prediction of the CMAQ forecast by decreasing the normal mean bias and improvingthe index of agreement. The reduced false alarm rates and high prediction accuracy confirm the feasibility of these modelsfor practical applications.
+PU  - 한국기상학회
+C6  - Nov. 30.
+PY  - 2023
+ER  - 
+
+TY  - JOUR
+AN  - ART003025369
+AU  - 허창회
+AU  - 박인규
+AU  - 김진원
+AU  - 이재범
+C3  - 이화여자대학교
+TI  - PM2.5 Forecast in Korea using the Long Short-Term Memory (LSTM) Model
+TT  - 
+T2  - Asia-Pacific Journal of Atmospheric Sciences
+KW  - AirKorea · Air pollution · Artificial intelligence · Community multiscale air quality (CMAQ) · Long short-term memory (LSTM) · PM2.5
+AB  - The National Institute of Environmental Research, under the Ministry of Environment of Korea, provides two-day forecasts,through AirKorea, of the concentration of particulate matter with diameters of≤2.5 μm (PM2.5) in terms of four grades (low,moderate, high, and very high) over 19 districts nationwide. Particulate grades are subjectively designated by human forecastersbased on forecast results from the Community Multiscale Air Quality (CMAQ) and artificial intelligence (AI) modelsin conjunction with weather patterns. This study evaluates forecasts from the long short-term memory (LSTM) algorithmrelative to those from CMAQ-solely and AirKorea using observations from 2019. The skills of the one-day PM2.5 forecastsover the 19 districts were 39–70% for CMAQ, 72–79% for LSTM, and 73–80% for AirKorea; the AI forecasts showed comparableskills to the human forecasters at AirKorea. The one-day forecast skill levels of high and very high PM2.5 pollutiongrades are 31–98%, 31–74%, and 39–81% for the CMAQ-solely, the LSTM, and the AirKorea forecasts, respectively. Despitegood skills for forecasting the high and very high events, CMAQ-solely forecasts also generate substantially higher falsealarm rates (up to 86%) than the LSTM and AirKorea forecasts (up to 58%). Hence, applying only the LSTM model to theCMAQ forecasts can yield reasonable forecast skill levels comparable to the operational AirKorea forecasts that elaboratelycombine the CMAQ model, AI models, and human forecasters. The present results suggest that applications of appropriateAI models can greatly enhance PM2.5 forecast skills for Korea in a more objective way.
+PU  - 한국기상학회
+C6  - Nov. 30.
+PY  - 2023
+ER  - 
+
+TY  - JOUR
+AN  - ART003025372
+AU  - 김상헌
+AU  - 박문수
+C3  - 세종대학교
+TI  - Determination of Input variables for Artificial Intelligence Models to predict the High PM2.5 concentration events in Seoul, Korea
+TT  - 
+T2  - Asia-Pacific Journal of Atmospheric Sciences
+KW  - High PM2.5 Concentration Event · Korean Region Blocking Index · East–West Geopotential Index · Concentration-Wind · Random Forest · Support Vector machine
+AB  - The concentration of particulate matter (PMs) is governed by complex processes such as long-range transport, verticaldiffusion, and local emissions. Therefore, thus it is relatively difficult to accurately forecast high PM concentration events.As the application of artificial intelligence (AI) techniques to air-quality prediction has increased, optimal input variablesfor AI models have become critical. The purpose of this study was to suggest combined and synoptic variables, in additionto conventional surface meteorological and air quality variables, for AI-based high PM event prediction models. In Seouland four cities in China, the observed surface meteorological and air quality data, upper air meteorological data, planetaryboundary layer height, and temperature gradients between the surface and 850 hPa were tested. The east–west geopotentialindex (EWGI) and Korean Region Blocking Index (KRBI) have been suggested as regional-scale blocking indices. Aconcentration-wind (CW) variable was introduced to represent the effects of long-range transport from China. The usefulnessof the suggested variables was tested using random forest (RF) and support vector machine (SVM) for 2017–2020. As theforecasting days progressed, the importance of surface variables decreased, whereas those of the EWGI, KRBI, CW, andstability variables increased. The stability variables increased the accuracy, probability of detection, and F1 scores, whiledecreasing the false alarm rate on the 3‒5 forecasting days. EWGI and KRBI improved the prediction performance after thethird forecast day, and CW was important for predicting the 3‒4 forecast days. Newly introduced variables, such as EWGI,KRBI, CW, and stability tended to increase the 1‒4 day forecast hit rate for high PM2.5 events and were found to be usefulinput data for machine learning or artificial intelligence-based air quality prediction models.
+PU  - 한국기상학회
+C6  - Nov. 30.
+PY  - 2023
+ER  - 
+
+TY  - JOUR
+AN  - ART003014678
+AU  - 양세영
+AU  - 최현영
+AU  - 임정호
+C3  - 울산과학기술원 지구환경도시건설공학과
+TI  - GOCI-II 대기상한 반사도와 기계학습을 이용한 남한 지역 시간별 에어로졸 광학 두께 산출
+TT  - Retrieval of Hourly Aerosol Optical Depth Using Top-of-Atmosphere Reflectance from GOCI-II and Machine Learning over South Korea
+T2  - 대한원격탐사학회지
+KW  - 에어로졸 광학 두께
+KW  - GOCI-II
+KW  - 기계학습
+KW  - 대기질
+AB  - 대기 중 에어로졸은 인체에 악영향을 끼칠 뿐 아니라 기후 시스템에도 직간접적인 영향을 미치므로 에어로졸의 특성과 시공간적인 분포에 대한 이해는 매우 중요하다. 이를 위해 위성기반 관측을 통해 에어로졸광학 두께(Aerosol Optical Depth, AOD)를 산출하여 에어로졸을 모니터링하는 다양한 연구가 수행되어 왔다.하지만 이는 주로 조견표를 활용한 역 산출 알고리즘에 기반하여 이루어지기 때문에 많은 계산량을 요구하며불확실성이 존재한다. 따라서, 본 연구에서는 Geostationary Ocean Color Imager-II (GOCI-II)의 대기상한반사도와 30일 동안의 대기상한반사도 중 최솟값과 관측 시점 값의 차이 값, 수치 모델 기반 기상학적 변수 등을 활용하여 기계학습 기반 고해상도 AOD 직접 산출 알고리즘을 개발하였다. Light Gradient Boosting Machine(LGBM) 기법이 사용되었으며, 추정된 결과는 지상 관측 자료인 Aerosol Robotic Network (AERONET) AOD를 활용하여 랜덤, 시간 및 공간별 N-fold 교차검증을 통해 검증되었다. 세 가지 교차검증 결과 R2=0.70–0.80,RMSE=0.08–0.09, 기대오차(Expected Error, EE) 안에 있는 비율은 75.2–85.1% 수준으로 안정적인 성능을 보였다. Shapley Additive exPlanations (SHAP) 분석에서는 반사도 관련 변수들이 기여도의 상위권 대부분을 차지하고 있는 것을 통해 반사도 자료가 AOD 추정에 많은 기여를 하는 것을 확인하였다. 서울과 울산 지역에 대한 시간 별 AOD의 공간 분포를 분석한 결과, 개발된 LGBM 모델은 시간의 흐름에 따라 AERONET AOD 값과 유사한 수준으로 AOD를 추정하고 있었다. 이를 통해 높은 시공간 해상도(i.e., 시간별, 250 m)에서의 AOD 산출이 가능함을 확인하였다. 또한, 산출 커버리지 비교에서 LGBM 모델의 평균 산출 빈도가 GOCI-II L2 AOD산출물 대비 8.8%가량 증가한 것을 통해 기존 물리모델기반 AOD 산출 과정에서 발생하던 밝은 지표면에 대한 과도한 마스킹의 문제점을 개선시킨 것을 확인하였다.
+PU  - 대한원격탐사학회
+C6  - Oct. 31.
+PY  - 2023
+ER  - 
+
+TY  - JOUR
+AN  - ART003003729
+AU  - 김삼용
+C3  - 중앙대학교
+TI  - 머신러닝을 이용한 미세먼지 예측 연구
+TT  - A study on PM10 forecasting model using machine learning
+T2  - 한국데이터정보과학회지
+KW  - 머신러닝
+KW  - 미세먼지 예측
+KW  - CNN
+KW  - GRU
+KW  - LSTM
+AB  - 미세먼지란, 대기 중에 떠다니거나 흩날려 내려오는 입자상물질인 먼지 중 입자의 지름이 10㎍ 이하인 먼지를 말하며, 으로 표기하기도 한다. 이러한, 미세먼지는 매우 작은 크기로, 코나 기관지에서 걸러지지 않고 몸속에 스며들어 천식과 폐질환 또는 면역세포의 작용을 통해 염증을 일으키기도 한다. 최근 한국이 세계적으로 미세먼지 농도가 가장 높은 국가인 것이 밝혀졌는데, 미세먼지는 건강뿐 아니라 생태계 및 농작물에도 직접적인 영향을 미치기 때문에 정확한 예보 시스템을 통한 대책 마련을 강구하는 것이 중요하다. 따라서, 본 논문에서는 기상청이 제공하는 기상 데이터와 에어코리아에서 제공하는 대기오염물질 데이터를 이용하여 미세먼지 농도의 머신러닝 예측 성능 비교를 하고자 하였다. 지역으로는 황사의 유입 경로인 산둥반도와 가장 인접한 인천광역시의 데이터를 추출하였고, 인천시의 다양한 기상 요인 및 대기오염물질들의 상관관계 확인 후, 모형을 구축하였다. 모형으로는 MLP, RNN, LSTM, GRU 그리고 CNN을 사용하였고, 기본적인 하이퍼파라미터와 단일층으로 구성하여 예측 성능을 비교하였다. 그 후, GRU1 (단일층) 모형에 층을 추가한 GRU2 모형을 새롭게 구성하여 가장 예측 성능이 좋았던 GRU1 모형과 비교해보았다. 예측 성능은 테스트 데이터에서 MAE와 RMSE로 평가하였다. 대부분 비슷한 예측 성능을 보였지만, GRU1 모형이 MAE 8.80, RMSE 14.61로 다른 모형들에 비해 가장 성능이 우수하다는 것을 확인할 수 있었다. 가장 예측 성능이 낮은 모형은 MLP 모형이며, 그 뒤로는 RNN, LSTM, GRU2, CNN 순으로 예측 성능이 우수하였다.
+PU  - 한국데이터정보과학회
+C6  - Sep. 30.
+PY  - 2023
+ER  - 
+
+TY  - JOUR
+AN  - ART002987789
+AU  - 윤희영
+AU  - 이주용
+AU  - 이채연
+AU  - 정민우
+AU  - 안준영
+AU  - 왕경희
+AU  - 최대련
+C3  - 안양대학교
+TI  - PM2.5 구성 성분 입력자료를 이용한 DNN의 XAI 분석과 PM2.5 예측 정확도 개선
+TT  - XAI Analysis of DNN Using PM2.5 Component Input Data and Improvement of PM2.5 Prediction Performance
+T2  - 한국대기환경학회지
+KW  - PM2.5 forecast
+KW  - DNN
+KW  - CMAQ
+KW  - XAI
+KW  - PM2.5 component
+AB  - The aim of this study was to assess whether a simple Deep Neural Network (DNN) model could address the limitations of the current overestimated CMAQ model used for fine dust forecasting by NIER in Seoul, South Korea. Two DNN models, DNN-1 and DNN-2, were developed using data from 2016 to 2020. DNN-1 used urban air monitoring network data and CMAQ predictions, while DNN-2 incorporated additional PM2.5 component measurement data. The models forecasted PM2.5 concentrations for three days, and evaluation focused on the accuracy of daily average concentrations. DNN-1 and DNN-2 outperformed the CMAQ model in terms of accuracy, probability of detection (POD), and false alarm rate (FAR). DNN-2 showed lower POD but significantly improved ACC and FAR, indicating a compensatory relationship between the two metrics. Using the XAI technique called Layer-wise Relevance Propagation (LRP), the study analyzed the importance of input parameters in the models. Meteorological factors, including temperature, humidity, radiation, wind speed, and wind direction, were found to be highly important. PM2.5 component measurement data, such as NO3 - and OM (Organic Matter), showed relatively lower importance compared to meteorological factors. It was determined that the limited impact of fine dust composition was due to the XAI analysis conducted on yearly results rather than high-concentration cases in this study.
+PU  - 한국대기환경학회
+C6  - Aug. 31.
+PY  - 2023
+ER  - 
+
+TY  - JOUR
+AN  - ART002993498
+AU  - 유숙현
+C3  - 안양대학교
+TI  - DNN과 계층 연관성 전파를 이용한 PM2.5 고농도 사례의 인자 중요도 분석
+TT  - Analysis of Factor Importance of PM2.5 High Concentration Case Using DNN and Layer-wise Relevance Propagation
+T2  - 멀티미디어학회논문지
+KW  - Layer-Wise Relevance Propagation
+KW  - eXplainable Artificial Intelligence
+KW  - Fine Dust Forecasting
+KW  - Factor Importance
+AB  - In this study, we used Layer-wise Relevance Propagation (LRP) to analyze the level of contribution of input factors to the predictive results of the PM2.5 predictive model. First, we trained the DNN prediction model using data from 2015 to 2020, and then evaluated it using data from 2021. Next, we performed LRP on the evaluation data to analyze the importance of input factors in the prediction results. As a result, factors with consistently high importance regardless of concentration were O_TA, O_TD, O_RH, O_U, O_V, and O_PA, whereas PM10 and O_RN_ACC were observed to have lower importance. Furthermore, to analyze the characteristics of high-concentration data that are generally difficult to predict compared to low-concentration data, we divided the data by concentration and analyzed the importance of input factors. As a result, the importance of O_PM2.5 was high in the high concentration pattern and the importance of O_radiation was low, while the opposite trend was observed in the low concentration pattern. In particular, for high-concentration patterns that started suddenly and lasted more than three days, we analyzed the importance of input factors by time and factor. These high-concentration patterns with these characteristics showed significantly increased importance in the O_PM2.5 factor in the T12 interval closest to the prediction time, and it was observed that the importance of the F_PM2.5 factor increased slightly. Applying the factor importance results analyzed in this study to the PM2.5 prediction model is expected to improve prediction accuracy for high concentration patterns that are difficult to predict compared to general patterns.
+PU  - 한국멀티미디어학회
+C6  - Aug. 31.
+PY  - 2023
+ER  - 
+
+TY  - JOUR
+AN  - ART002989305
+AU  - 도우곤
+AU  - 김동영
+AU  - 송희진
+AU  - 조갑제
+C3  - 부산광역시 보건환경연구원
+TI  - DNN을 활용한 부산지역 초미세먼지 예보방안
+TT  - A Study on the PM2.5 forcasting Method in Busan Using Deep Neural Network
+T2  - 한국환경과학회지
+KW  - CMAQ
+KW  - Deep Neural Network
+KW  - PM2.5 forcast
+AB  - The purpose of this study is to improve the daily prediction results of PM2.5 from the air quality diagnosis and evaluation system operated by the Busan Institute of Health and Environment in real time. The air quality diagnosis and evaluation system is based on the photochemical numerical model, CMAQ (Community multiscale air quality modeling system), and includes a 3-day forecast at the end of the model’s calculation. The photochemical numerical model basically has limitations because of the uncertainty of input data and simplification of physical and chemical processes. To overcome these limitations, this study applied DNN (Deep Neural Network), a deep learning technique, to the results of the numerical model. As a result of applying DNN, the r of the model was significantly improved. The r value for GFS (Global forecast system) and UM (Unified model) increased from 0.77 to 0.87 and 0.70 to 0.83, respectively. The RMSE (Root mean square error), which indicates the model’s error rate, was also significantly improved (GFS: 5.01 to 6.52 ug/m3, UM: 5.76 to 7.44 ug/m3). The prediction results for each concentration grade performed in the field also improved significantly (GFS: 74.4 to 80.1%, UM: 70.0 to 77.9%). In particular, it was confirmed that the improvement effect at the high concentration grade was excellent.
+PU  - 한국환경과학회
+C6  - Aug. 31.
+PY  - 2023
+ER  - 
+
+TY  - JOUR
+AN  - ART002977698
+AU  - 양병모
+AU  - 김성훈
+C3  - 강원대학교
+TI  - 기상 및 대기 환경적 영향 요인을 고려한 커피 소비 예측 연구 : 빅데이터를 활용한 머신러닝 기법 적용
+TT  - A Study of Coffee Consumption Prediction Considering Atmospheric Environment and Meteorological Factors : Application of Machine Learning Techniques using Big data
+T2  - 한국커피문화연구
+KW  - 머신러닝
+KW  - 커피
+KW  - 소비예측
+KW  - 기상
+KW  - 대기환경
+AB  - 본 연구는 머신러닝 방법의 인공신경망 모델을 토대로 커피 소비 예측 추정 및 변수별 중요도 평가를 수행하였다. 유동 인구가 많고 사람들의 접근이 쉬운 카페의 위치는 높은 수익을 보장해 주기 때문에 성공에 중요한 요소인 것으로 나타났다. 또한 기상학적 요인 중에서 높은 기온과 낮은 습도 그리고 낮은 풍속은 외부 활동을 증가시켜 매출에 긍정적 영향을 미친다. 즉, 인간이 체감하는 기상과 날씨의 변화는 소비자의 행동에 직접적인 영향을 주고 심리를 변화시켜 지출로 이어진다고 설명할 수 있다. 대기 환경적 요인에서 미세먼지는 탁한 공기 때문에 소비자는 야외활동을 대신하여 내부 활동을 찾아 실내로 유입됨으로 소비자의 행동을 이해하여 마케팅 전략을 조정하는 것이 필요하다. 상황적 요인, 기상학적 요인 그리고 대기 환경적 요인을 모두 고려한 머신러닝 모델 예측력이 우수한 결과로 나타났다. 그럼으로 커피 수요 예측 시뮬레이션 결과는 데이터 기반 의사결정에 활용할 수 있다. 커피 운영 기업에 있어서 상황별 주문량과 고객 방문을 예측함으로써 효과적인 식자재 수요 관리 및 필요한 기업 인원 배치나 인적 조직 운영을 정교화하는 데 본 연구 모델이 도움을 줄 수 있을 것이다.
+PU  - 한국커피협회
+C6  - Jun.
+PY  - 2023
+ER  - 
+
+TY  - JOUR
+AN  - ART002951152
+AU  - 김영일
+AU  - 이권호
+C3  - 강릉원주대학교
+TI  - 미세먼지 농도 예측을 위한 머신러닝 기법의 정확도 분석
+TT  - Accuracy Analysis of Machine Learning Methods for Predicting PM Concentration
+T2  - 한국대기환경학회지
+KW  - Aerosol
+KW  - Particle matter
+KW  - Air quality
+KW  - Machine learning
+KW  - Error analysis
+AB  - In this study, machine learning technique was applied by using PM10, PM2.5 and air quality data acquired from Urban Air Monitoring Network and Meteorological data acquired from Automated Synoptic Observing System (ASOS) and Aerosol Optical Depth (AOD), Ångström Exponent (AE) data acquired from the ground-based Sun-sky radiometer (AERONET) observation network or Satellite data (MODIS). For the determination of the best machine learning (ML) model, four ML techniques such as Multi Linear Regression (MLR), Support Vector Machine (SVM), Random Forest (RF), Deep Neural Network (DNN) were tested and compared accuracy using Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), R2, Mean Absolute Percentage Error (MAPE). Since the error range can be presented according to the diversity and variability of input data and ML, it is possible to compare the prediction accuracy of each model or determine the optimal prediction model. We also proved the assumption that more accurate results can be obtained by the optimized ML technique having the lowest error rate. The results showed that optimized ML model has the accuracy of 81.27% for PM10 concentration prediction and 73.25% for PM2.5 concentration prediction. It is expected that expanded air quality information through the using of ML based PM concentration prediction with the remote sensing data.
+PU  - 한국대기환경학회
+C6  - Apr. 30.
+PY  - 2023
+ER  - 
+
+TY  - JOUR
+AN  - ART002965654
+AU  - 김용빈
+AU  - 박승부
+AU  - 이상철
+AU  - 박영권
+C3  - 서울시립대학교
+TI  - Comparison of PM2.5 prediction performance of the three deep learning models: A case study of Seoul, Daejeon, and Busan
+TT  - 
+T2  - Journal of Industrial and Engineering Chemistry
+KW  - LSTM GRU Bi-LSTM PM2.5 Deep learning Prediction
+AB  - In this study, the PM2.5, prediction performances of long short-term memory (LSTM), gated recurrentunit (GRU), and bidirectional LSTM (Bi-LSTM) were compared using data from Seoul, Daejeon, andBusan, which are representative cities in Korea. The data analysis period was from 9:00 on May 16,2014, to 23:00 on December 31, 2021, based on data at 1 h intervals. The causal factors affecting thechange in PM2.5 of three cities in Korea, and five major cities in China were determined. The analysisrevealed that the three models showed similarly high performances in short-term prediction within24 h (R2  0.9). The Bi-LSTM model using both past and future time information showed high predictionaccuracy for long-term prediction (R2  0.6). Using the PM2.5 data of the five major Chinese cities, it wasconfirmed that the accuracy of the PM2.5 prediction model for Seoul, Daejeon, and Busan improved. Thedeep learning model showed a high accuracy even when the Fine Dust Act measures were implemented.This study can facilitate governments to prepare measures against air pollution with a high regional predictionperformance by identifying the causal factors affecting PM2.5, specific to the city, and designingdifferent models for each forecasting period.
+PU  - 한국공업화학회
+C6  - Apr. 25.
+PY  - 2023
+ER  - 
+
+TY  - JOUR
+AN  - ART002931115
+AU  - 김영일
+AU  - 이권호
+AU  - 박승한
+C3  - 강릉원주대학교
+TI  - 대기오염물질의 실시간 단기 예측을 위한 머신러닝 기법의 적용 및 평가
+TT  - Application and Evaluation of Machine Learning Techniques for Real-time Short-term Prediction of Air Pollutants
+T2  - 한국대기환경학회지
+KW  - Air quality
+KW  - Machine learning
+KW  - PM
+KW  - Air pollutants
+AB  - In this study, the machine learning (ML) techniques were compared and evaluated for real-time short-term prediction of air pollutants and the accuracy of the prediction results using the optimal prediction technique was analyzed.Air quality data and meteorological data for the last four years (2015~2018) are used to train and test the ML system. The ML system consists of four models including Random Forest (RF), Support Vector Machine (SVM), Multiple Linear Regression (MLR), and Deep Neural Network (DNN), and the optimal model was determined through an error analysis technique using an accuracy verification index of Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), Mean Absolute Percentage Error (MAPE), and coefficient of determination (R2). The optimized model estimation results showed that the explicit error ranges were estimated (NO2=±0.035 ppm, CO=±0.071 ppm, SO2=±0.0008 ppm, O3=±0.006 ppm, PM10=±6.395 μg/m3, PM2.5=±3.772 μg/m3). Using the optimized model determined by the highest grade acquisition method, the modelling results during a year of 2019 showed relatively high accuracy as (NO2=14.146±5.864%, CO =4.289±1.025%, SO2=5.572±1.306%, O3=5.549±0.716%, PM10=4.031±0.899%, PM2.5=3.488±0.990%) respectively. These prediction results mean a significant level of error within the uncertainty of the model. Therefore, it was proved that the suggested methodology is effective in short-term prediction of air pollutants.
+PU  - 한국대기환경학회
+C6  - Feb. 28.
+PY  - 2023
+ER  - 
+
+TY  - JOUR
+AN  - ART002929654
+AU  - Wei Bai
+AU  - Fengying Li
+C3  - School of mathematics and computer science, Ningxia Normal University, Ningxia, Guyuan, 756000, China
+TI  - PM2.5 concentration prediction using deep learning in internet of things air monitoring system
+TT  - 
+T2  - Environmental Engineering Research
+KW  - Air monitoring system
+KW  - Deep learning
+KW  - Encoder decoder
+KW  - Internet of things
+KW  - PM2.5 concentration prediction
+KW  - Temporal attention mechanism
+AB  - Aiming at the problems of low accuracy and less prediction time step in traditional statistical model for PM2.5 concentration prediction, a PM2.5 concentration prediction method based on deep learning in Internet of Things air monitoring system is proposed. Firstly, the spatiotemporal correlation of each station data in the Internet of Things monitoring system is analyzed, and the cubic spline interpolation method is used to fill in the missing data. Then, the temporal attention of the input data is obtained by attention mechanism, and the feature encoder is used to encode the data to obtain the intermediate features. Finally, the intermediate feature is fused with the historical information of PM2.5 concentration, and the predicted value is obtained through the feature decoder. Using the proposed model to predict the PM2.5 concentration in Beijing, the experimental results show that the long-term PM2.5 predicted value is very close to the real value, and the RMSE and MAE are 17.93 μg/m3 and 11.52 μg/m3, respectively, which are better than other comparison models. So, this model is suitable for multivariable long time series forecasting scenarios.
+PU  - 대한환경공학회
+C6  - Feb. 28.
+PY  - 2023
+ER  - 
+
+TY  - JOUR
+AN  - ART002901378
+AU  - 김민우
+AU  - 정형세
+C3  - 국립기상과학원
+TI  - 머신러닝 기법을 활용한 서울 지점 미세먼지 농도 예측 연구
+TT  - Development of machine learning based prediction of particlulate matter concentration in Seoul
+T2  - 한국데이터정보과학회지
+KW  - 머신러닝
+KW  - 미세먼지
+KW  - 슬라이딩 윈도우
+KW  - ASOS
+KW  - SVR.
+AB  - 미세먼지는 사회$\cdot$경제적으로 악영향을 주는 요인으로 이에 대한 대비가 필요하다. 따라서 본 연구는 서울 지점의 미세먼지 농도를 실시간으로 예측하여 국민에게 제공하고자 한다. 최적의 미세먼지 예측 모델을 선정하기 위하여 심층신경망 (deep neural network, DNN), 랜덤 포레스트 (random forest, RF), 서포트 벡터 회귀 (support vector regression, SVR), 장단기 메모리 (long short term memory, LSTM) 모델들을 비교하였다. 또한 실시간 학습을 위하여 슬라이딩 윈도우 기법을 적용하여 최신의 자료를 학습할 수 있도록 구축하였다. 각 모델의 학습자료는 미세먼지의 영향이 심각한 2017년 서울 지역의 기상자료와 대기오염물질 자료를 사용하였으며, 모델의 평가는 2018년 자료를 사용하였다. 모델별 하이퍼 파라미터는 격자탐색법을 이용하여 최적 조건을 선정하였다. 선정된 조건을 100회 반복 수행하여 모델의 일관성 및 안정성을 검토하였으며, 통계분석을 통하여 성능 평가를 수행하였다. 최종 선정된 모델은 SVR로 전산 자원 사용량과 연산시간 대비 우수한 예측성능을 나타냈으며, 미세먼지 등급별 예측정확도는 87.14\%로 가장 우수한 성능을 나타냈다.
+PU  - 한국데이터정보과학회
+C6  - Nov. 30.
+PY  - 2022
+ER  - 
+
+TY  - JOUR
+AN  - ART002887718
+AU  - 표성훈
+AU  - 이권호
+C3  - 강릉원주대학교
+TI  - 딥러닝 기법을 이용한 에어러솔 복사강제력 산출
+TT  - Estimation of Aerosol Radiative Forcing Using Deep Learning Technique
+T2  - 한국대기환경학회지
+KW  - Aerosol Optical Depth
+KW  - Aerosol Radiation Forcing
+KW  - Deep learning
+KW  - Deep Neural Network
+AB  - In this study, we propose a new method to determine aerosol radiation forcing (ARF) by building the Deep Learning based ARF (DL_ARF) model. For the best optimization of the deep learning structures used in the DL_ARF, performances with the different layers used in the deep neural network were evaluated. The DL_ARF uses only two input data of aerosol optical depth (AOD) and solar zenith angle (SZA) and it has a very fast calculation speed compared to the typical radiative transfer model’s running time. In addition, accuracy of the DL_ARF was verified by comparing the ARF determined by DL_ARF and by the typical radiative transfer model based ARF (RTM_ARF) results. These comparisons showed very good correlation between DL_ARF and RTM_ARF (slope=1.04~1.06, r=0.95~0.97) and high accuracy (bias=0.68~2.03 W/m2, RMSE=6.51~8.41 W/m2) was obtained. The ARF calculation time of DL_ARF was significantly shortened compared to the ARF calculation time of the radiative transfer model. The aerosol radiation forcing efficiency (ARFE) of Seoul and Gangneung was calculated and compared by applying the DL_ARF model developed in this study. As a result, ARFE in Gangneung and Seoul are -1.22 W/m2∕ τ, -1.03 W/m2∕ τ, respectively. Interestingly, ARFE in Gangneung is 18.4% lower than Seoul because aerosols in Gangneung have less single scattering albedo (SSA) values than Seoul indicating the more absorbing aerosols. DL_ARF can be effectively used to provide real-time data needed to study complex surface atmospheric motion and climate change.
+PU  - 한국대기환경학회
+C6  - Oct. 31.
+PY  - 2022
+ER  - 
+
+TY  - JOUR
+AN  - ART002867608
+AU  - 장한진
+AU  - 이원호
+AU  - 노기영
+C3  - 한림대학교
+TI  - 미세먼지 기능성게임에서 AI 챗봇의 메시지유형이 건강행동의도에 미치는 효과
+TT  - The effect of AI chatbot message type on health behavior intention in serious game about particulate matter
+T2  - 한국게임학회 논문지
+KW  - 기능성 게임
+KW  - 미세먼지
+KW  - 사회적 규범 메시지
+KW  - 건강행동의도
+AB  - 본 연구는 기능성 게임 환경에서 미세먼지의 위험성과 건강정보를 담은 메시지가 플레이어의 건강행동의도에 미치는 영향과 그 요인을 탐색하고자 하였다. 데이터 수집은 AI 챗봇시스템과 플레이테스트 방법론을 이용한 실험으로 수행하였으며, 분석에는 대학생 120명의 실험데이터를 활용하였다. 주요 연구 결과로는 첫째, 메시지 상호작용은 두려움 수준에 의해 조절된 지각된 위협을 매개하여 건강행동의도에 정적인 영향을 주었다. 둘째, 건강행동의도에 미치는 메시지 유형별 영향은 일반 메시지보다 사회적 규범 메시지일 때 더 큰 것으로 나타났다.
+PU  - 한국게임학회
+C6  - Aug. 29.
+PY  - 2022
+ER  - 
+
+TY  - JOUR
+AN  - ART002874657
+AU  - 최일훈
+AU  - 소금현
+C3  - 서감초등학교
+TI  - 인공지능 기반 도구를 활용한 미세먼지 환경교육 프로그램이 초등학생의 환경감수성과 자기효능감에 미치는 영향
+TT  - The Effect of a Fine Dust Environmental Education Program Using Artificial Intelligence-Based Tools on Environmental Sensitivity and Self-Effectiveness of Elementary School Students
+T2  - 초등과학교육
+KW  - 인공지능
+KW  - 미세먼지 교육
+KW  - 환경감수성
+KW  - 자기효능감
+AB  - 본 연구에서는 인공지능 기반 도구를 활용한 미세먼지 환경교육 프로그램을 개발하고 초등학생들에게 적용하여 환경감수성과 자기효능감에 미치는 영향을 알아보고자 하였다. 이를 위하여 초등학교 6학년 학생 29명을 대상으로 연구를 실시하였으며, 환경감수성과 자기효능감에 관한 사전 ⋅ 사후 검사 결과를 분석하였다. 본 연구의 결과는 다음과 같다. 첫째, 인공지능 기반 도구를 활용한 미세먼지 환경교육 프로그램은 초등학생들의 환경감수성 향상에 효과적이다. 둘째, 인공지능 기반 도구를 활용한 미세먼지 환경교육 프로그램은 초등학생들의 자기효능감 향상에 긍정적인 영향을 끼쳤다. 셋째, 인공지능 기반 도구를 활용한 미세먼지 환경교육 프로그램은 초등학생들의 환경에 대한 인식변화에 긍정적인 영향을 끼쳤다. 학생들은 프로그램을 적용한 후 미세먼지뿐만 아니라 환경에 관심을 많이 가지게 되었고, 일상생활과 연계하여 환경보호 실천 의식을 가지게 되었다. 이와 같이 인공지능 기반 도구를 활용한 미세먼지 환경교육 프로그램은 초등학생들의 환경감수성 및 자기효능감에 긍정적인 영향을 준 것으로 판단된다.
+PU  - 한국초등과학교육학회
+C6  - Aug. 31.
+PY  - 2022
+ER  - 
+
+TY  - JOUR
+AN  - ART002839624
+AU  - 김민주
+AU  - 정수광
+AU  - 이정훈
+C3  - 사단법인 한국패시브건축협회
+TI  - 머신러닝을 활용한 지역별 환경요소의 미세먼지 기여도 분석
+TT  - Analysis of the Contribution of Particulate Matter by Environmental Factors of Regions Using Machine Learning
+T2  - 한국생활환경학회지
+KW  - Particulate matter
+KW  - Machine learning
+KW  - Inland area
+KW  - Costal area
+KW  - Contribution
+AB  - The scope of this work was to characterize PM concentration in inland and coastal areas in Korea and to examine the relative contribution of the outdoor environment and time factor. The coastal area was designated as the case where there was a measuring station within 10 km of the coastline, and the other areas were defined as inland areas. PM10·PM2.5 concentrations and other environmental factors were all measured by the national measuring station in units of one hour in 2019. Through the prediction accuracy analysis by machine learning algorithm using these data, it was confirmed that the boosted decision tree had the highest accuracy in PM analysis, and the accuracy was lowered in PM10 and coastal areas due to factors that were not reflected in the feature such as sea salt. After that, by using variable weights derived from linear regression, we found the main causes of the PM concentration increase were PM precursor and the seasonal characteristics of winter and spring. And main causes of PM concentration decrease were dew point temperature, wind speed and direction. Also, the PM increase or decrease due to environmental variables was larger in the inland area than in the coastal area.
+PU  - 한국생활환경학회
+C6  - Apr. 30.
+PY  - 2022
+ER  - 
+
+TY  - JOUR
+AN  - ART002833211
+AU  - 최인호
+AU  - 이원영
+AU  - 은범진
+AU  - 허정숙
+AU  - 장광현
+AU  - 오종민
+C3  - 경희대학교
+TI  - Deep Neural Network를 활용한 초미세먼지 농도 예측에 관한 연구
+TT  - A Study on Prediction of PM2.5 Concentration Using DNN
+T2  - 환경영향평가
+KW  - 초미세먼지
+KW  - 대기오염물질
+KW  - 기계학습
+KW  - 예측모델
+KW  - DNN모델
+AB  - 본 연구는 국가측정망(에어코리아)에서 제공하는 2017년, 2019년 및 2020년도 대기질확정 데이터를 이용하여 Deep Neural Network(DNN) 모델을 학습하고, 2016년과 2018년도 데이터를 이용하여 학습된 모델을 평가·검증하였다. 피어슨 상관계수 0.2를 기준으로 SO2, CO, NO2, PM10 항목을 독립변수로 하여 초기 모델링을 진행하였고, 예측의 정확도를 높이기 위한 방법으로 시계열적 요소를 반영한 월별 모델링(개선모델)을 진행하여 초기모델과 비교·분석하였다. 분석에 사용한 지표는 RMSE(Root mean square error) 방법으로 오차를 계산하였으며, 예측 결과 초기모델의 RMSE값은 5.78로 국가측정망의 예측이동평균모델의 결과(10.77)와 비교하여 초기모델에서 약 46% 오차가 감소하였다. 또한, 개선모델의 경우, 초기모델 대비 11월 모델을 제외한 모든 월별모델에서 정확도 향상이 있었다. 따라서, 본 연구에서는 DNN 모델링이 PM2.5 농도 예측에 효과적인 방법임을 제안할 수 있었으며, 향후 추가적인 독립변수 선정 및 시계열 요소를 고려한 방법으로 모델의 정확도 개선 가능성을 확인할 수 있었다.
+PU  - 한국환경영향평가학회
+C6  - Apr. 28.
+PY  - 2022
+ER  - 
+
+TY  - JOUR
+AN  - ART002834521
+AU  - 윤재성
+AU  - 김경민
+AU  - 안종화
+C3  - 강원대학교 환경공학과
+TI  - 대기 중 미세먼지를 포함한 태양광발전 예측 인공지능 모델 개발
+TT  - Development of Artificial Intelligence Model to Forecast Photovoltaic Power Generation Including Airborne Particulate Matter
+T2  - 대한환경공학회지
+KW  - 게이트 순환 유닛
+KW  - 미세먼지
+KW  - 인공지능
+KW  - 태양광 발전량 예측
+KW  - 하이브리드 모델
+AB  - 목적:본 연구는 대기 중 미세먼지를 입력인자에 포함한 단일모델, 하이브리드(hybrid) 모델 등을 상호 비교하여 태양광 발전량 예측을 위한 최적 모델을 제시하고자 한다.방법:전라남도 진도군에 있는 1 MW급 태양광 발전량 자료와 목포 지점의 기상 자료와 미세먼지 자료를 2016년 12월에서 2019년 12월까지 사용하였다. 입력 인자는 일사량, 일조 시간, 기압, 기온, 습도, 풍속, 풍향, 적설량, 강수량, PM10, PM2.5를 사용하였다. 사용된 모델 중 단일모델로는 랜덤포레스트(random forest, RF), 인공신경망(artificial neural network, ANN), 장단기메모리(long-term dependency problem, LSTM), 게이트 순환 유닛(gate recurrent unit, GRU)을 사용하였으며, 하이브리드 모델로는 LSTM-ANN, GRU-ANN을 사용하였다. 모델의 예측 성능을 비교, 평가하기 위해 결정계수(coefficient of determination, R2), 평균 제곱근 오차(root mean square error, RMSE), 평균절대오차(mean absolute error, MAE)를 사용하였다.결과 및 토의:RF를 이용해서 중요도를 확인한 결과,일사량(77.66%), 일조 시간(4.85%), 기압(4.16%), 기온(3.98%), 습도(2.25%), 풍속(2.21%), PM10(2.72%), PM2.5(1.65%), 풍향(1.44%), 적설량(0.05%), 강수량(0.02%)의 순으로 나타났다. GRU-ANN은 모델 중 가장 높은 R2(0.838)를 보였고 학습 조기 종료(early stop)를 사용하여 GRU보다 낮은 epoch(8)를 보였다.결론:미세먼지를 포함한 태양광 발전량 예측에 GRU-ANN 모델이 가장 우수하다.
+PU  - 대한환경공학회
+C6  - Apr. 30.
+PY  - 2022
+ER  - 
+
+TY  - JOUR
+AN  - ART002811498
+AU  - 이권호
+AU  - 김영일
+AU  - 이규태
+C3  - 강릉원주대학교
+TI  - 시계열 머신러닝 기법을 이용한 컬럼에어로솔 예측 및 평가
+TT  - Evaluation and Prediction of Column Aerosol by Using the Time Series Machine Learning Technique
+T2  - 한국대기환경학회지
+KW  - Aerosol
+KW  - Machine learning
+KW  - Aerosol optical depth
+KW  - Classification
+KW  - Air quality
+AB  - Column aerosol observation has the advantage of obtaining microphysical information of aerosols present in the vertical atmospheric column at a given point. In this study, in order to predict column aerosol loads in the local atmosphere, time series machine learning technique was applied by using Aerosol Optical Depth (AOD) and Ångström Exponent (AE) data acquired from the selected ground-based Sun-sky radiometer observation network. For the determination of the best time series machine learning model, the independent optional properties including three regression models (glmnet, lm, and spark), four training period (1-4 years), and five regularization parameters (0-0.08) were tested in time series modelling. The results showed that spark model with the 1 year training period and regularization constant of 0.08 has the highest accuracy (RMSE = 0.302, bias = 0.213) for the AOD prediction. In the case of AE prediction, the highest accuracy (RMSE = 0.356, bias = 0.238) was obtained by the glmnet model with 1 year training period and the regularization constant of 0.08. In addition, machine learning clustering results shows that urban/industrial aerosol types occurred at a rate of 63.7% in Korea. The methodology and results of this study can be used for short-term aerosol prediction models and remote sensing data.
+PU  - 한국대기환경학회
+C6  - Feb. 28.
+PY  - 2022
+ER  - 
+
+TY  - JOUR
+AN  - ART002787523
+AU  - 표성훈
+AU  - 이권호
+AU  - 이규태
+C3  - 강릉원주대학교
+TI  - 머신러닝 클러스터링을 이용한 서울과 강릉 지역의 컬럼 에어로솔 기여도 산정
+TT  - Estimation of Column Aerosol Contribution in Seoul and Gangneung Using Machine Learning Clustering Technique
+T2  - 한국대기환경학회지
+KW  - Aerosol
+KW  - Machine learning
+KW  - Aerosol optical thickness
+KW  - Classification
+KW  - Air quality
+AB  - In this study, we estimated characteristics of the local atmospheric aerosols by the machine learning techniques with the column aerosol and meteorological data measured at Seoul and Gangneung. Based on the classified aerosol properties, contributions of aerosol inflow and outflow can be inferred and scenarios based on these results were also determined. Column aerosol observation status for two cities showed that the aerosol optical depth (AOD) observed in Seoul is 39.2% (0.18±0.16) higher than that of Gangneung (0.28±0.24), and the Angstrom Exponent (AE) was a similar range level (1.29±0.3). Although aerosol loads are differences between the two regions, the particle size distribution of regions is similar.For the machine learning clustering analysis, all data samples were classified as the best number of classes and optimized scenarios for Seoul and Gangneung were determined. In order to verify the created scenarios, a case was selected from the GOCI RGB image and MODIS L1B, and the scenario algorithm was performed using the actual ground observation data. This methodology is useful for monitoring and predicting fine dust through the characterization and contribution calculation of atmospheric column aerosols.
+PU  - 한국대기환경학회
+C6  - Dec. 31.
+PY  - 2021
+ER  - 
+
+TY  - JOUR
+AN  - ART002795638
+AU  - 손상훈
+AU  - 김진수
+C3  - 부경대학교
+TI  - 인공지능을 이용한 수도권 학교 미세먼지 취약성 평가: Part I - 미세먼지 예측 모델링
+TT  - Vulnerability Assessment for Fine Particulate Matter (PM2.5) in the Schools of the Seoul Metropolitan Area, Korea: Part I – Predicting Daily PM2.5 Concentrations
+T2  - 대한원격탐사학회지
+KW  - PM2.5 concentrations
+KW  - Random forest
+KW  - Meteorological variables
+KW  - Chemical variables
+KW  - Aerosol optical depth
+AB  - 미세먼지는 인체에는 물론 생태계, 날씨 등에도 많은 영향을 끼치며, 인구와 건물, 차량 등이 밀집된 대도시에서의 미세먼지의 예측과 모니터링은 중요하다. 특히 자동차, 연소 등에서 발생하는 PM2.5 농도는 독성 물질을 포함할 수 있어 체계적인 관리가 필요하다. 따라서 본 연구는 화학 인자, 위성 기반의 aerosol optical depth (AOD), 기상 인자 등을 입력 자료로 하여 수도권PM2.5 농도를 예측하고자 한다. PM2.5 농도 예측을 위해 기계 학습 모델 중 PM 농도 예측에 우수한 성능을 보이는 random forest (RF) 모델을 선정하였으며, 모델 평가를 위해 통계 지표인 R2, RMSE, MAE, MAPE를 산출하였다. RF 모델의 모델 정확도는 R2, RMSE, MAE, MAPE는 각각 0.97, 3.09, 2.18, 13.31로 나타났으며, 예측 정확도는 각각 0.82, 6.03, 4.36, 25.79로 본 연구에서 사용한 인자들을 이용하여 PM2.5를 예측 시 높은 정확도와 상관성을 나타내었다. 따라서 향후 학교 미세먼지 예측 및 범주화를 위해 본연구에서 사용한 인자들을 RF 모델에 적용하였을 때 신뢰할만한 결과를 도출할 수 있을 것으로 기대된다.
+PU  - 대한원격탐사학회
+C6  - Dec. 31.
+PY  - 2021
+ER  - 
+
+TY  - JOUR
+AN  - ART002785553
+AU  - 정종철
+C3  - 남서울대학교
+TI  - 기계학습 Adaboost에 기초한 미세먼지 등급 지도
+TT  - Particulate Matter Rating Map based on Machine Learning with Adaboost Algorithm
+T2  - 지적과 국토정보
+KW  - 미세먼지
+KW  - 기계학습
+KW  - Adaboost
+KW  - 대기오염물질
+AB  - 미세먼지는 사람의 건강에 많은 영향을 미치는 물질로서 이와 관련하여 다양한 연구가 이루어지고있다. 미세먼지의 인체 영향으로 인해 서울시 모니터링 네트워크에서 측정된 과거 데이터를 활용하여미세먼지를 예측하려는 다양한 연구가 진행되고 있다. 본 연구는 2019년 5월 서울시의 미세먼지를 중점으로 진행하였으며, 학습에 사용한 변수는 SO2, CO, NO2, O3와 같은 대기오염물질 데이터를 활용하였다. 예측모델은 Adaboost에 기반하여 구축하였고, 훈련모델은 PM10과 PM2.5로 구분하였다. 에러 메트릭스를 통한 예측모델의 정확도 평가 결과로 Adaboost가 시도되었다. 대기오염물질은 초미세먼지와 더 높은 상관성을 보이는 것으로 나타났지만, 보다 효과적인 분포등급을 제시하기 위해서는 많은 양의 데이터를 학습하고, PM10과 PM2.5의 공간분포등급을 효과적으로 예측하기 위해서 교통량 등의 추가적인 변수를 활용할 필요성이 있다고 판단된다.
+PU  - 한국국토정보공사
+C6  - Dec. 10.
+PY  - 2021
+ER  - 
+
+TY  - JOUR
+AN  - ART002795642
+AU  - 손상훈
+AU  - 김진수
+C3  - 부경대학교
+TI  - 인공지능을 이용한 수도권 학교 미세먼지 취약성 평가: Part II - 학교 미세먼지 범주화
+TT  - Vulnerability Assessment for Fine Particulate Matter (PM2.5) in the Schools of the Seoul Metropolitan Area, Korea: Part II – Vulnerability Assessment for PM2.5 in the Schools
+T2  - 대한원격탐사학회지
+KW  - PM2.5 concentrations prediction
+KW  - Random forest
+KW  - School categorization
+KW  - Time series analysis
+AB  - 직경 2.5 μm 이하인 초미세먼지는 급격한 도시화와 인구 증가로 인해 대도시에서 많이 발생하며, 유아및 청소년기는 성인에 비해 초미세먼지에 취약하고 만성 질환으로 이어질 가능성이 높다. 특히 대부분의 청소년들은 학교에서 가장 많은 시간을 보내고 있으며, 다양한 이유에 의해 실외에서 발생한 초미세먼지가 실내로유입된다. 본 연구는 외부 요인에 의해 발생하는 학교 초미세먼지를 예측하고 학교별 초미세먼지 범주화를 수행하였다. 10-fold cross validation과 grid-search method를 적용한 random forest (RF) 모델에 화학과 기상 인자, 위성 기반의 aerosol optical depth (AOD)를 입력 자료로 하여 학교 초미세먼지를 예측하고 정확도 평가를 위해4가지 통계 지표를 이용하였다. 학교 미세먼지 범주화를 위해 6가지 유형을 가진 느슨한 기준과 엄격한 기준을정의하였으며, 범주화 결과 느슨한 기준의 경우 유형 2와 3에, 엄격한 기준의 경우 유형 3과 4에 가장 많은 학교가 포함되었다.
+PU  - 대한원격탐사학회
+C6  - Dec. 31.
+PY  - 2021
+ER  - 
+
+TY  - JOUR
+AN  - ART002768763
+AU  - 유숙현
+C3  - 안양대학교
+TI  - 계층 연관성 전파를 이용한 DNN PM2.5 예보모델의 입력인자 분석 및 성능개선
+TT  - Analysis of Input Factors and Performance Improvement of DNN PM2.5 Forecasting Model Using Layer-wise Relevance Propagation
+T2  - 멀티미디어학회논문지
+KW  - Layer-wise Relevance Propagation (LRP)
+KW  - Explainable Artificial Intelligence (XAI)
+KW  - PM2.5 Forecasting Model
+KW  - Deep Neural Network (DNN)
+AB  - In this paper, the importance of input factors of a DNN (Deep Neural Network) PM2.5 forecasting model using LRP(Layer-wise Relevance Propagation) is analyzed, and forecasting performance is improved. Input factor importance analysis is performed by dividing the learning data into time and PM2.5 concentration. As a result, in the low concentration patterns, the importance of weather factors such as temperature, atmospheric pressure, and solar radiation is high, and in the high concentration patterns, the importance of air quality factors such as PM2.5, CO, and NO2 is high. As a result of analysis by time, the importance of the measurement factors is high in the case of the forecast for the day, and the importance of the forecast factors increases in the forecast for tomorrow and the day after tomorrow. In addition, date, temperature, humidity, and atmospheric pressure all show high importance regardless of time and concentration. Based on the importance of these factors, the LRP_DNN prediction model is developed. As a result, the ACC(accuracy) and POD(probability of detection) are improved by up to 5%, and the FAR(false alarm rate) is improved by up to 9% compared to the previous DNN model.
+PU  - 한국멀티미디어학회
+C6  - Oct. 29.
+PY  - 2021
+ER  - 
+
+TY  - JOUR
+AN  - ART002773620
+AU  - 조경우
+AU  - 정용진
+AU  - 오창헌
+C3  - 한국정보통신기술협회
+TI  - 미세먼지 농도 예측을 위한 딥러닝 알고리즘별 성능 비교
+TT  - Comparative Study of Performance of Deep Learning Algorithms in Particulate Matter Concentration Prediction
+T2  - 한국항행학회논문지
+KW  - Neural network
+KW  - Deep neural network
+KW  - Recurrent neural network
+KW  - Long short-term memory
+KW  - Particulate matter
+AB  - 미세먼지에 대한 심각성이 사회적으로 대두됨에 따라 대중들은 미세먼지 예보에 대한 정보의 높은 신뢰성을 요구하고 있다. 이에 따라 다양한 신경망 알고리즘을 이용하여 미세먼지 예측을 위한 연구가 활발히 진행되고 있다. 본 논문에서는 미세먼지 예측을 위해 다양한 알고리즘으로 연구되고 있는 신경망 알고리즘들 중 대표적인 알고리즘들의 예측 성능 비교를 진행하였다. 신경망 알고리즘 중 DNN(deep neural network), RNN(recurrent neural network), LSTM(long short-term memory)을 이용하였으며, 하이퍼 파라미터 탐색을 이용하여 최적의 예측 모델을 설계하였다. 각 모델의 예측 성능 비교 분석 결과, 실제 값과 예측 값의 변화 추이는 전반적으로 좋은 성능을 보였다. RMSE와 정확도를 기준으로 한 분석에서는 DNN 예측 모델이 다른 예측 모델에 비해 예측 오차에 대한 안정성을 갖는 것을 확인하였다.
+PU  - 한국항행학회
+C6  - Oct. 30.
+PY  - 2021
+ER  - 
+
+TY  - CONF
+AN  - ART002776612
+AU  - 
+C3  - 
+TI  - 딥러닝 알고리즘별 미세먼지 고농도 예측 성능 비교
+TT  - Comparison of High Concentration Prediction Performance of Particulate Matter by Deep Learning Algorithm
+T2  - 2021년 추계종합학술대회
+KW  - 
+AB  - 
+PU  - 한국정보통신학회
+C6  - Oct. 28.
+PY  - 2021
+ER  - 
+
+TY  - JOUR
+AN  - ART002762695
+AU  - 권경빈
+AU  - 홍수민
+AU  - 허재행
+AU  - 정호성
+AU  - 박종영
+C3  - RaonFriends Co., Ltd., Korea
+TI  - 역사 내 미세먼지 농도 조절을 위한 강화학습 기반의 송풍기·공조기 제어 에이전트 구축
+TT  - Reinforcement Learning-based HVAC Control Agent for Optimal Control of Particulate Matter in Railway Stations
+T2  - 전기학회논문지
+KW  - Deep Q-Network
+KW  - Energy management
+KW  - Markov decision process
+KW  - Particulate matter
+KW  - Reinforcement learning
+AB  - This study developed a reinforcement learning-based energy management agent that controls the concentration of fine dust by controlling the power consumption of energy facilities such as air conditioners and blowers in stations. To apply reinforcement learning, the problem was first defined based on the Markov decision-making process, and a model was developed to predict the concentration of fine dust in history using data correlated with fine dust. Based on the linear compensation function created based on this, the Deep Q-Network (DQN) method was applied to obtain the optimal policy based on the artificial neural network. In the case study, it was confirmed that convergence to the optimal policy was achieved through the learning process, and it was confirmed that the learned agent lowers the fine dust concentration by increasing the power consumption of the air conditioner when the fine dust concentration in the station rises above a certain level
+PU  - 대한전기학회
+C6  - Oct. 1.
+PY  - 2021
+ER  - 
+
+TY  - JOUR
+AN  - ART002739230
+AU  - 원동준
+AU  - 김선겸
+AU  - 김영훈
+AU  - 송규원
+C3  - 현대트랜시스 매니저
+TI  - 기계학습을 활용한 경기도 산업단지 미세먼지 예측
+TT  - Prediction of Fine Dust in Gyeonggi-do Industrial Complex using Machine Learning Methods
+T2  - 정보과학회논문지
+KW  - 미세먼지
+KW  - PM2.5
+KW  - 반월시화산업단지
+KW  - 예측
+KW  - 인공지능
+KW  - 딥러닝
+AB  - 최근 미세먼지의 다양한 예측 모델들을 통한 연구가 이루어지고 있지만 현재 PM10 농도 예측에 치중되어 있어 PM2.5 농도를 예측할 수 있는 모델 개발이 필요한 상황이다. 본 논문은 최근 약 2년간의 반월시화국가산업단지의 대기질, 기상, 교통 데이터를 수집하여 미세먼지(PM2.5)와 미세먼지(PM10), 이산화황(SO2), 이산화질소(NO2), 일산화탄소(CO), 오존(O3), 온도, 습도, 풍향, 풍속, 강수량, 도로 구간별 차량속도 변수간의 상관관계 분석 및 회귀분석을 통해 변수의 유의성을 파악하고, 산업단지의 시간대별 PM2.5를 예측하는 데 활용하였다. 인공지능 기반의 Random Forest, XGBoost, LightGBM, Deep neural network과 Voting 모델을 통해 산업단지의 시간별 PM2.5 농도를 예측하고, RMSE를 기준으로 비교분석을 진행하였다. 예측 결과 RMSE는 각각 6.27, 6.41, 6.22, 6.64, 6.12로 각 모델 모두 에어코리아에서 예측하는 모델의 10.77에 비해 매우 높은 성능을 보여주었다.
+PU  - 한국정보과학회
+C6  - Jul. 15.
+PY  - 2021
+ER  - 
+
+TY  - JOUR
+AN  - ART002709421
+AU  - 박서희
+AU  - 김미애
+AU  - 임정호
+C3  - 울산과학기술원
+TI  - 부스팅 기반 기계학습기법을 이용한 지상 미세먼지 농도 산출
+TT  - Estimation of Ground-level PM10 and PM2.5 Concentrations Using Boosting-based Machine Learning from Satellite and Numerical Weather Prediction Data
+T2  - 대한원격탐사학회지
+KW  - Particulate Matter
+KW  - PM10
+KW  - PM2.5
+KW  - Machine learning
+KW  - AOD
+KW  - GOCI
+AB  - 미세먼지 (PM10) 및 초미세먼지 (PM2.5)는 인체에 흡수 가능하여 호흡기 질환 및 심장 질환과 같이 인체건강에 악영향을 미치며, 심각할 경우 조기 사망에 영향을 줄 수 있다. 전 세계적으로 현장관측기반의 모니터링을 수행하고 있지만 미 관측지역에 대한 대기질 분포의 공간적인 한계점이 존재하여 보다 광범위한 지역에대한 지속적이고 정확한 모니터링이 필요한 상황이다. 위성기반 에어로졸 정보를 사용함으로써 이러한 현장관측자료의 한계점을 극복할 수 있다. 따라서 본 연구에서는 다양한 위성 및 모델자료를 활용하여 2019년도에대해 한 시간 단위의 지상 PM10 및 PM2.5 농도를 추정하였다. GOCI 위성의 관측영역을 포함하는 동아시아 지역에 대해 트리 기반 앙상블 방법을 사용하는 Boosting 기법인 GBRTs (Gradient Boosted Regression Trees)와LightGBM (Light Gradient Boosting Machine)을 활용하여 모델을 구축하였다. 또한, 기상변수 및 토지피복변수의 사용유무에 따른 모델의 성능을 비교하기 위해 두 가지 festure set으로 나누어 테스트하였다. 두 기법 모두주요 변수인 AOD (Aerosol Optical Depth), SSA (Single Scattering Albedo), DEM (Digital Eelevation Model), DOY (Day of Year), HOD (Hour of Day)와 기상변수 및 토지피복변수를 함께 사용한 Feature set 1을 사용하였을 때 높은 정확도를 보였다. Feature set 1에 대해 GBRT 모델이 LightGBM에 비해서약 10%의 정확도 향상을 보였다. 가장 정확도가 높았던 기상 및 지표면 변수를 포함한 Feature set1을 사용한 GBRT기반 모델을 최종모델로 선정하였으며 (PM10: R2 = 0.82 nRMSE = 34.9%, PM2.5: R2 = 0.75 nRMSE = 35.6%), 계절별 및 연평균 PM10 및 PM2.5 농도에 대한 공간적인 분포를 확인해본 결과, 현장관측자료와 비슷한 공간 분포를 보였으며, 국가별 농도 분포와계절에 따른 시계열 농도 패턴을 잘 모의하였다.
+PU  - 대한원격탐사학회
+C6  - Apr. 30.
+PY  - 2021
+ER  - 
+
+TY  - JOUR
+AN  - ART002695824
+AU  - 김영희
+AU  - 장관종
+C3  - 호서대학교
+TI  - 딥러닝 알고리즘 기반의 초미세먼지(PM2.5) 예측 성능 비교 분석
+TT  - Comparison and analysis of prediction performance of fine particulate matter(PM2.5) based on deep learning algorithm
+T2  - 융합정보논문지
+KW  - 딥런닝
+KW  - 초미세먼지(PM2.5)
+KW  - CNN
+KW  - LSTM
+KW  - GAN
+KW  - 시계열데이터
+AB  - 본 연구는 딥러닝(Deep Learning) 알고리즘 GAN 모델을 기반으로 초미세먼지(PM2.5) 인공지능 예측시스템을 개발한다. 실험 데이터는 시계열 축으로 생성된 온도, 습도, 풍속, 기압의 기상변화와 SO2, CO, O3, NO2, PM10와 같은 대기오염물질 농도와 밀접한 관련이 있다. 데이터 특성상, 현재시간 농도가 이전시간 농도에 영향을 받기 때문에 반복지도학습(Recursive Supervised Learning) 예측 모델을 적용하였다. 기존 모델인 CNN, LSTM의 정확도(Accuracy)를 비교분석을 위해 관측값(Observation Value)과 예측값(Prediction Value)간의 차이를 분석하고 시각화했다. 성능분석 결과 제안하는 GAN이 LSTM 대비 평가항목 RMSE, MAPE, IOA에서 각각 15.8%, 10.9%, 5.5%로 향상된 것을 확인하였다.
+PU  - 중소기업융합학회
+C6  - Mar. 28.
+PY  - 2021
+ER  - 
+
+TY  - JOUR
+AN  - ART002698313
+AU  - 김혜림
+AU  - 문태헌
+C3  - 경상대학교 도시공학과
+TI  - 기상 데이터와 미세먼지 데이터를 활용한 머신러닝 기반 미세먼지 예측 모형
+TT  - Machine learning-based Fine Dust Prediction Model using Meteorological data and Fine Dust data
+T2  - 한국지리정보학회지
+KW  - 미세먼지
+KW  - 기상
+KW  - 빅데이터
+KW  - 머신러닝
+KW  - 스마트산단
+AB  - 미세먼지는 질병, 산업·경제에 부정적인 영향을 미치고 있어 국민들은 미세먼지에 대해 예민하게 반응하고 있다. 따라서 미세먼지의 발생을 예측할 수 있다면, 미리 대응책을 마련할 수 있어 생활과 경제에 도움이 될 수 있다. 미세먼지의 발생은 기상과 미세먼지 배출원의 밀집 정도에 영향을 받는다. 산업부문은 미세먼지 배출량이 가장 많으며, 그 중에 산단은 공장들이 미세먼지 배출원이 되어 더 많은 미세먼지를 배출하는 문제가 있다. 본 연구는 지방도시에서 노후산업단지가 있는지역을 선정하여, 미세먼지를 일으키는 요인을 탐색하고, 미세먼지 발생을 예측할 수 있는 예측모형을 개발하고자 한다. 기상 데이터와 미세먼지 관련 데이터를 활용하였고, 다중회귀분석을 통해미세먼지 발생에 영향을 미치는 변수를 추출하였다. 이를 토대로 머신러닝 회귀학습기 모형으로학습하여 예측력이 높은 모형을 추출하였고, 검증용 데이터를 이용하여 예측 모형의 성능을 검증하였다. 그 결과, 예측력이 높은 모형은 선형회귀모형, 가우스 과정 회귀모형, 서포트 벡터 머신으로 나타났으며, 훈련용 데이터의 비율과 예측력은 비례하지 않은 것으로 나타났다. 또한 예측치와실측치 차이의 평균치는 크지 않지만, 미세먼지 실측치가 높을 때, 예측력이 다소 떨어지는 것으로나타났다. 본 연구의 결과는 지자체 데이터 허브를 통해 기상데이터와 관련 도시 빅데이터를 결합함으로써 보다 체계적이고 정밀한 미세먼지 예측 서비스로 개발이 가능할 것이며, 스마트산단의발전을 촉진하는 계기가 될 것이다.
+PU  - 한국지리정보학회
+C6  - Mar. 31.
+PY  - 2021
+ER  - 
+
+TY  - JOUR
+AN  - ART002697596
+AU  - Abhishek Dutta
+AU  - Wanida Jinsart
+C3  - Chulalongkorn University, Thailand
+TI  - Air Pollution in Indian Cities and Comparison of MLR, ANN and CART Models for Predicting PM10 Concentrations in Guwahati, India
+TT  - 
+T2  - Asian Journal of Atmospheric Environment
+KW  - Air pollution
+KW  - Prediction
+KW  - Artificial neural network
+KW  - Multi-variate linear regression
+KW  - Small city
+AB  - Indian cities are increasingly becoming susceptible to PM10 induced health hazards, thereby creating concern for the country’s policymakers. Air pollution is engulfing the comparatively smaller cities as the rapid pace of urbanization, and economic development seem not to lose steam. A review of air pollution of 28 cities of India, which includes tier-I, II, and III cities of India, found to have grossly violated both WHO (World Health Organisation) and NAAQS (National Ambient Air Quality Standard of India) in respect of acceptable daily average PM10 (particulate matter less than 10 μm in aerodynamic diameter) concentrations by a wide margin. Predicting the city level PM10 concentrations in advance and accordingly initiate prior actions is an acceptable solution to save the city dwellers from PM10 induced health hazards. Predictive ability of three models, linear Multiple Linear Regression (MLR), nonlinear Multi-Layer Perceptron class of Artificial Neural Network (MLP ANN), and nonlinear Classification and Regression Tree (CART), for one day ahead PM10 concentration forecasting of tier-II Guwahati city, were tested with 2016-2018 daily average observed climate data, PM10, and gaseous pollutants. The results show that the non-linear algorithm MLP with feedforward backpropagation network topologies of ANN class, gives the best prediction value compared with linear MLR and nonlinear CART model. Therefore, ANN (MLP) approach may be useful to effectively derive a predictive understanding of one day ahead PM10 concentration level and thus provide a tool to the policymakers for initiating in situ measures to curb air pollution and improve public health.
+PU  - 한국대기환경학회
+C6  - Mar. 31.
+PY  - 2021
+ER  - 
+
+TY  - JOUR
+AN  - ART002680606
+AU  - 백봉현
+AU  - 하일규
+C3  - 영남대학교
+TI  - 지역환경변수를 이용한 인공지능기반 대기오염 분석 및 예측 시스템 개발
+TT  - Development of artificial intelligence-based air pollution analysis and prediction system using local environmental variables
+T2  - 한국정보통신학회논문지
+KW  - 대기 오염 예측
+KW  - 대기 오염 모니터링
+KW  - 대기 오염 빅데이터
+KW  - 인공지능 알고리즘
+AB  - 최근 산업화에 따른 대기오염 문제는 국가와 국민 모두에 큰 관심을 끌고 있다. 국내의 광역(廣域) 대기오염 정보는 국가적으로 공공 데이터를 통해 국민에게 제공하고 있으나, 환경변수가 다른 지역적인 대기오염 정보는 매우 부족한 상황이다. 따라서 본 연구에서는 지역적인 대기오염 현상을 보다 정확하게 분석하고 예측할 수 있는 지역 환경변수 기반의 대기오염 분석 및 예측 시스템을 설계하고 구현한다. 특히 제안한 시스템은 지역적으로 측정된 환경 데이터와 공공 빅데이터를 기반으로 지역의 대기정보를 정확하게 분석하여 제공하고, 인공지능 알고리즘을 통해 미래의 지역 대기정보를 예측하여 제시한다. 나아가 제안된 시스템을 통해 지역적인 대기오염의 발생 원인을 정확하게 파악하여 지역의 대기오염을 예방할 수 있을 것으로 기대할 수 있다.
+PU  - 한국정보통신학회
+C6  - Jan. 31.
+PY  - 2021
+ER  - 
+
+TY  - JOUR
+AN  - ART002667621
+AU  - 손상훈
+AU  - 김진수
+C3  - 부경대학교
+TI  - 다중선형회귀와 기계학습 모델을 이용한 PM10 농도 예측 및 평가
+TT  - Evaluation and Predicting PM10 Concentration Using Multiple Linear Regression and Machine Learning
+T2  - 대한원격탐사학회지
+KW  - PM10 concentration
+KW  - Meteorological Variables
+KW  - Multiple Linear Regression
+KW  - Support Vector Machine
+KW  - Random Forest
+AB  - 최근 급속한 산업화와 도시화로 인해 인위적으로 발생하는 미세먼지(Particulate matter, PM)는 기상 조건에 따라 이동 및 분산되면서 피부와 호흡기 등 인체에 악영향을 미친다. 본 연구는 기상인자를 multiple linear regression(MLR), support vector machine(SVM), 그리고 random forest(RF) 모델의 입력자료로 하여 서울시 PM10 농도를 예측하고, 모델 간 성능을 비교 평가하는데 그 목적을 둔다. 먼저 서울시에 소재한 39개소 대기오염측정망(air quality monitoring sites, AQMS)에서 관측된 PM10 농도 자료를 8:2 비율로 구분하여 모델 훈련과 검증 데이터셋으로 사용되었다. 또한 기상관측소(automatic weather system, AWS)에서 관측되고 있는 자료 중 9개 기상인자(평균기온, 최고기온, 최저기온, 일 강수량, 평균풍속, 최대순간풍속, 최대순간풍속풍향, 황사발생유무, 상대습도)가 모델의 입력자료로 선정되었다. 각 AQMS에서 관측된 PM10 농도와MLR, SVM, 그리고 RF 모델에 의해 예측된 PM10 농도 간 결정계수(R2)는 각각 0.260, 0.772, 그리고 0.793이었고, RF 모델이 PM10 농도 예측에 가장높은 성능을 나타냈다. 특히 모델 검증에 사용되는 AQMS 중 관악구와 강남대로 AQMS는 상대적으로 AWS에가까워 SVM과 RF 모델에서 높은 정확도를 나타냈다. 종로구 AQMS는 AWS에서 비교적 멀리 떨어져 있지만, 인접한 두 AQMS 데이터가 모델 학습에 사용되었기 때문에 두 모델에서 높은 정확도를 나타냈다. 반면 용산구AQMS는 AQMS 및 AWS에서 비교적 멀리 떨어져 있기에 두 모델의 성능이 낮게 나타냈다.
+PU  - 대한원격탐사학회
+C6  - Dec. 31.
+PY  - 2020
+ER  - 
+
+TY  - JOUR
+AN  - ART002677494
+AU  - 정예민
+AU  - 조수빈
+AU  - 윤유정
+AU  - 김서연
+AU  - 김대선
+AU  - 이양원
+C3  - 부경대학교
+TI  - 기계학습 기반의 우리나라 익일 PM10 농도 예측지도 산출
+TT  - Machine Learning-based Prediction Maps for the Tomorrow’s PM10 Concentration in Korea
+T2  - 기후연구
+KW  - 미세먼지
+KW  - 기계학습
+KW  - 예측지도
+AB  - Because of the population growth and industrialization in recent decades, the air quality over the world has been worsened with the increase of PM10 concentration. Korea is located near the eastern part of China which has many industrial complexes, so the consideration of China’s air quality is necessary for the PM10 prediction in Korea. This paper examines a machine learning-based modeling of the prediction of tomorrow’s PM10 concentration in the form of a gridded map using the AirKorea observations, Chinese cities’ air quality index, and NWP (numerical weather prediction) model data. A blind test using 23,048 cases in 2019 produced a correlation coefficient of 0.973 and an MAE (mean absolute error) of 4.097㎍/㎥, which is high accuracy due to the appropriate selection of input variables and the optimization of the machine learning model. Also, the prediction model showed stable predictability irrespective of the season and the level of PM10. It is expected that the proposed model can be applied to an operative system if a fine-tuning process using a larger database is accomplished.
+PU  - 기후연구소
+C6  - Dec. 31.
+PY  - 2020
+ER  - 
+
+TY  - JOUR
+AN  - ART002670778
+AU  - 원태연
+AU  - 어양담
+AU  - 성홍기
+AU  - 정규수
+AU  - 윤준희
+C3  - 건국대학교
+TI  - CCTV 영상으로부터 미세먼지 추정에서 학습영상조합, 기상변수 적용이 결과에 미치는 영향
+TT  - Effect of the Learning Image Combinations and Weather Parameters in the PM Estimation from CCTV Images
+T2  - 한국측량학회지
+KW  - 딥러닝
+KW  - 미세먼지 지수
+KW  - SVR (Support Vector Regression)
+KW  - CCTV
+KW  - 합성곱 신경망
+AB  - CCTV상과 날씨 정보를 이용하여 미세먼지 농도를 추정하는 기법을 제안하고, 이에 대한 실험을 진행하다. CCTV상에 대해서는 특정 지점을 포함하는 일부 역 상과, 전체 역 상을 가지고 합성곱 신경망 (CNN)기 반의 딥러닝 기법을 적용하여 PM 지수를 추정하는 방법을 제안하다. 추가로 딥러닝에 의해서 예측된 결과 값을 습도 및 풍속 두 가지 날씨 특성과 결합한 뒤, 학습 된 회귀 모델을 사용하여 수정된 미세먼지 지수를 계산하는 후 처리 실험도 함께 진행하다. 실험 결과, CCTV상으로부터 미세먼지 지수 추정 값은 R2가 0.58~0.89를 나타내었 고, 측정기가 설치된 일부 역 상과 전체 역 상을 함께 학습시킨 결과가 가장 우수하다. 기상변수를 이용 한 후처리 적용결과는 실험지역의 모든 경우에 대하여 항상 정확도 향상을 보여주진 않았다.
+PU  - 한국측량학회
+C6  - Dec. 31.
+PY  - 2020
+ER  - 
+
+TY  - JOUR
+AN  - ART002650596
+AU  - 성상하
+AU  - 김상진
+AU  - 류민호
+C3  - 동아대학교 경영정보학과
+TI  - 미세먼지 예측을 위한 기계학습 모델 간 성능 비교 연구:국내 발생 데이터를 중심으로
+TT  - A Comparative Study on the Performance of Machine Learning Models for the Prediction of Fine Dust: Focusing on Domestic and Overseas Factors
+T2  - 한국혁신학회지
+KW  - 미세먼지
+KW  - 국내 요인
+KW  - 예측
+KW  - 기계학습
+KW  - 인공신경망
+AB  - 미세먼지는 대기오염의 주요인으로 각종 호흡계 질병을 초래해 건강을 위협하고 있다. 이러한 상황에서 미세먼지를 줄이기 위해 많은 정책들이 발표되었지만 효과는 크지 않은 상황이다. 본 연구는 국내 미세먼지 수치에 영향을 미치는 다양한 변수들을 분석하고, 미세먼지 수치를 예측하는 데 있어서 최적의 알고리즘을 제안한다. 미세먼지에 영향을 미치는 주요 변수는 기상, 대기오염물질 유입 등의 해외 유입 요인과 국내에서 발생되는 대기오염 요인으로 구분된다. 국내의 미세먼지 수치를 예측하기 위해 교통량, 화력발전량 등의 내부적 요인의 데이터를 활용했다. 분석에는 엑스지부스트(XGBoost), 랜덤포레스트(Random Forest), 서포트벡터머신(SVM), 인공신경망(ANN)의 알고리즘이 적용되었고, 제시된 모형을 통해 미세먼지 수치 예측을 진행했다. 분석 결과, 교통량, 화력발전 등 국내 관련 변수가 추가됨에 따라 기계학습 모형의 예측 정확도가 증가되는 것을 확인할 수 있었다. 또한, Random Forest와 XGBoost를 활용해 변수중요도를 추출한 결과 대기오염물질이 미세먼지를 예측하는데 가장 중요한 변수로 평가되었다. 제시된 알고리즘 중에서는 인공신경망 기법이 가장 예측 정확도가 높은 것을 확인할 수 있었다. 본 연구를 통해 미세먼지 수치 예측에 필요한 국내 변수들의 영향력을 파악하고, 적합한 예측모형을 선정할 수 있다. 또한 이를 활용해 향후 미세먼지 수치를 예측할 수 있다.
+PU  - 한국혁신학회
+C6  - Nov. 30.
+PY  - 2020
+ER  - 
+
+TY  - JOUR
+AN  - ART002640261
+AU  - 이권호
+AU  - 이규태
+C3  - 강릉원주대학교
+TI  - 머신러닝 클러스터링을 이용한 컬럼 관측에 따른 대기 에어로솔 특성 분석
+TT  - Characteristics of Atmospheric Aerosols Based on Column Measurements by Using Machine Learning Clustering
+T2  - 한국대기환경학회지
+KW  - Aerosol
+KW  - Machine learning
+KW  - Aerosol optical thickness
+KW  - Classification
+KW  - Air quality
+AB  - In this study, we classify atmospheric aerosols according to column measurement and meteorology patterns using machine learning technique. The observation data is the aerosol optical thickness (AOT), angstrom exponent (AE), precipitable water vapor (PWV), and wind at Daegwallyeong (DGL) and Gangneung-Wonju National University (GWNU) from March to June 2016. As a result of time series analysis and correlation regression analysis for individual data, higher mean AOT of 0.063 (32.0%) and AE ~0.031 in Gangneung compared to Daegwanryeong were found. These results show that the size of aerosols at two locations is similar, but the load of the particles is higher in Gangneung. The unsupervised K-means clustering are used as machine learning techniques in order to classify aerosol distribution pattern in the study area. As a result of the machine learning, aerosol patterns were classified into five groups according to local atmospheric conditions. These results of this study will provide useful information for understanding the relationship between factors related to the current status and pattern analysis of aerosols based on atmospheric observation data.
+PU  - 한국대기환경학회
+C6  - Oct. 31.
+PY  - 2020
+ER  - 
+
+TY  - JOUR
+AN  - ART002634035
+AU  - 최한수
+AU  - 강명주
+AU  - 김용철
+AU  - 최한나
+C3  - 서울대학교
+TI  - 서울 관악구 도심지역 미세먼지(PM10) 관측 값을 활용한 딥러닝 기반의 농도변동 예측
+TT  - Deep Learning-based Prediction of PM10 Fluctuation from Gwanak-gu Urban Area, Seoul, Korea
+T2  - 지하수토양환경
+KW  - fine dust (PM10)
+KW  - precursor
+KW  - deep learning
+KW  - convolutional neural network
+KW  - recurrent neural network
+KW  - prediction
+AB  - Since fine dust (PM10) has a significant influence on soil and groundwater composition during dry and wet depositionprocesses, it is of a vital importance to understand the fate and transport of aerosol in geological environments. Fine dust isformed after the chemical reaction of several precursors, typically observed in short intervals within a few hours. In thisstudy, deep learning approach was applied to predict the fate of fine dust in an urban area. Deep learning training wasperformed by combining convolutional neural network (CNN) and recurrent neural network (RNN) techniques. The PM10concentration after 1 hour was predicted based on three-hour data by setting SO2, CO, O3, NO2, and PM10 as training data.The obtained coefficient of determination value, R2, was 0.8973 between predicted and measured values for the entireconcentration range of PM10, suggesting deep learning method can be developed into a reliable and viable tool forprediction of fine dust concentration.
+PU  - 한국지하수토양환경학회
+C6  - Sep. 30.
+PY  - 2020
+ER  - 
+
+TY  - JOUR
+AN  - ART002614807
+AU  - 김혁
+C3  - 호서대학교
+TI  - XGBoost 앙상블에 의한 서울시 초미세먼지 예측
+TT  - The Prediction of PM2.5 in Seoul through XGBoost ensemble
+T2  - Journal of The Korean Data Analysis Society
+KW  - 미세먼지
+KW  - 예측
+KW  - 기계학습
+KW  - 앙상블
+KW  - XGBoost.
+AB  - 미세먼지는 사람의 건강에 많은 영향을 미치는 물질로서 환경과 건강에 대한 관심이 높아지면서 이와 관련하여 다양한 연구가 이루어지고 있다. 대기환경 분야에서는 전통적으로 수치모형을 이용하여 미세먼지와 관련된 연구를 수행하였으나 기계학습 분야가 발달함에 따라 최근 들어 기계학습을 이용한 연구도 수행하고 있다. 본 연구는 초미세먼지 농도의 예측에 관한 연구로서 기존의 연구들이 대부분 단기(1시간~2일 후) 예측에 그치는데 반해 중기(1주일 후) 예측을 시도하고 있다. 서울지역의 일평균 초미세먼지 농도를 보통(36미만)과 나쁨(36이상)의 이 단계로 나누어 이를 예측하는 분류모형을 만들었다. 분류모형으로는 XGBoost를 사용하였으며 모형의 성능 극대화를 위하여 각기 다른 평가지표를 기준으로 초모수 최적화(hyperparameter optimization)를 시도한 개별 모형들을 만든 후 앙상블 모형을 구축하였다. 2016년부터 2018년까지 3년의 자료를 이용하여 모형을 훈련시킨 후 2019년 1월부터 6월까지의 서울시 일 평균 미세먼지 농도를 예측한 결과 단일 모형보다 본 연구에서 제시한 앙상블 모형의 성능이 좋음을 확인하였다. 또한 미세먼지의 등급이 나쁜 경우보다 보통인 경우가 횔씬 많은 것을 고려하여 범주의 불균형 상태를 보완하는 방법을 적용하였으나 환경물질 자료만 설명변수로 사용할 때는 효과적이나 환경물질과 기상 정보에 관한 변수들을 모두 사용할 때는 오히려 모형의 성능에 악영향을 가져오는 것을 확인하였다.
+PU  - 한국자료분석학회
+C6  - Aug. 31.
+PY  - 2020
+ER  - 
+
+TY  - JOUR
+AN  - ART002615680
+AU  - Yemin Jeong
+AU  - Youjeong Youn
+AU  - Subin Cho
+AU  - Seoyeon Kim
+AU  - Morang Huh
+AU  - Yang-Won Lee
+C3  - Pukyong National University
+TI  - Prediction of Daily PM10 Concentration for Air Korea Stations Using Artificial Intelligence with LDAPS Weather Data, MODIS AOD, and Chinese Air Quality Data
+TT  - 
+T2  - 대한원격탐사학회지
+KW  - Air pollution
+KW  - PM10
+KW  - Artificial intelligence
+AB  - PM (particulate matter) is of interest to everyone because it can have adverse effects on human health by the infiltration from respiratory to internal organs. To date, many studies have made efforts for the prediction of PM10 and PM2.5 concentrations. Unlike previous studies, we conducted the prediction of tomorrow’s PM10 concentration for the Air Korea stations using Chinese PM10 data in addition to the satellite AOD and weather variables. We constructed 230,639 matchups from the raw data over 3 million and built an RF (random forest) model from the matchups to cope with the complexity and nonlinearity. The validation statistics from the blind test showed excellent accuracy with the RMSE (root mean square error) of 9.905 μg/m3 and the CC (correlation coefficient) of 0.918. Moreover, our prediction model showed a stable performance without the dependency on seasons or the degree of PM10 concentration. However, part of coastal areas had a relatively low accuracy, which implies that a dedicated model for coastal areas will be necessary. Additional input variables such as wind direction, precipitation, and air stability should also be incorporated into the prediction model as future work.
+PU  - 대한원격탐사학회
+C6  - Aug. 31.
+PY  - 2020
+ER  - 
+
+TY  - JOUR
+AN  - ART002613810
+AU  - 이상혁
+AU  - 이종원
+AU  - 김문경
+AU  - 박기수
+AU  - 박희문
+C3  - 한국건설기술연구원
+TI  - 머신러닝을 이용한 초미세먼지와 질소산화물 농도 특성분석 연구
+TT  - Characteristic Analysis of Fine Particulate Matter and Nitrogen Oxide Concentration Using a Machine Learning Technique at Roadsides
+T2  - 한국도로학회논문집
+KW  - fine particulate matter
+KW  - nitrogen oxide
+KW  - generalized linear model
+KW  - machine learning
+KW  - generalized regression neural network
+AB  - PURPOSES : This study analyzes the characteristics of generated fine particulate matter (PM2.5) and nitrogen oxide (NOX) at roadsides using a statistical method, namely, a generalized linear model (GLM). The study also investigates the applicability and capability of a machine learning methods such as a generalized regression neural network (GRNN) for predicting PM2.5 and NOX generations.METHODS : To analyze the characteristics of PM2.5 and NOX generations at roadsides, data acquisition was conducted in a specific segment of roads, and PM2.5 and NOX prediction models were estimated using GLM. In addition, to investigate the applicability and capability of a machine learning methods, PM2.5 and NOX prediction models were estimated using a GRNN and were compared with models employing previously estimated GLMs using r-square, mean absolute deviation (MAD), mean absolute percentage error (MAPE), and root mean square error (RMSE) as parameters.RESULTS : Results revealed that relative humidity, wind speed, and traffic volume were significant for both PM2.5 and NOX prediction models based on estimated models from a GLM. In addition, to compare the applicability and capability of the GLM and GRNN models (i.e., PM2.5 and NOX prediction models), the GRNN model of PM2.5 and NOX prediction was found to yield better statistical significance for r-square, MAD, MAPE, and RMSE as compared with the same parameters used in the GLM.CONCLUSIONS : Analytical results indicated that a higher relative humidity and traffic volume could lead to higher PM2.5 and NOX concentrations. By contrast, lower wind speed could affect higher PM2.5 and NOX concentrations at roadsides. In addition, based on a comparison of two statistical methods (i.e., GLM and GRNN models used to estimate PM2.5 and NOX), GRNN model yielded better statistical significance as compared with GLM.
+PU  - 한국도로학회
+C6  - Aug. 15.
+PY  - 2020
+ER  - 
+
+TY  - JOUR
+AN  - ART002579160
+AU  - 이득우
+AU  - 이수원
+C3  - 숭실대학교
+TI  - 시계열 데이터와 랜덤 포레스트를 활용한 시간당 초미세먼지 농도 예측
+TT  - Hourly Prediction of Particulate Matter (PM2.5) Concentration Using Time Series Data and Random Forest
+T2  - 정보처리학회 논문지
+KW  - 초미세먼지
+KW  - PM2.5
+KW  - 시계열 데이터
+KW  - 기계학습
+KW  - 랜덤 포레스트
+AB  - 최근 환경 문제에서 중요한 화두로 떠오른 초미세먼지(PM2.5)는 미세먼지(PM10)보다도 작은 부유물질이다. PM2.5는 안구나 호흡기 질환을 일으키며 뇌혈관에까지 침투할 수 있어서 시간별로 수치를 예측하여 대비하는 것이 중요하다. 그러나 PM2.5의 생성과 이동에 관한 명확한 설명이 아직까지는 제시되지 않고 있어서 예측에 어려움이 따른다. 따라서 PM2.5 예측뿐만 아니라 예측 결과에 대한 설명력을 갖는 예측 방법이 제시될 필요가 있다. 본 연구에서는 서울시의 시간당 PM2.5를 예측하고자 하며, 이를 위해 각기 다른 지상관측 데이터를 시계열로 전처리하고 부트스트랩 수를 조정한 랜덤 포레스트(Random Forest)를 데이터 학습 및 예측에 사용하는 방법을 제안한다. 이 방법은 예측 모델이 입력 데이터의 시각별 정보를 균형 있게 학습하게 하며 예측 결과에 대한 설명이 가능하다는 장점을 갖는다. 예측 정확도 평가를 위해 기존 모델과의 비교실험을 수행한 결과 제안 방법은 모든 레이블에서 가장 뛰어난 예측 성능을 보였으며, PM2.5의 생성과 관련된 변수와 중국의 영향과 관련된 변수가 예측 결과에 중요한 영향을 미치는 것을 보여주었다.
+PU  - 한국정보처리학회
+C6  - Apr. 30.
+PY  - 2020
+ER  - 
+
+TY  - JOUR
+AN  - ART002567045
+AU  - 이홍석
+AU  - 부이 칵 남
+AU  - 선충녕
+C3  - 한국과학기술정보연구원
+TI  - 도심지 교통흐름 및 미세먼지 예측을 위한 딥러닝 LSTM 프레임워크
+TT  - A Deep Learning LSTM Framework for Urban Traffic Flow and Fine Dust Prediction
+T2  - 정보과학회논문지
+KW  - 딥러닝
+KW  - 장단기 메모리
+KW  - 교통흐름 예측
+KW  - 도심지 미세먼지 예측
+AB  - 정확하고 시기 적절한 예측은 스마트시티의 성공적인 추진을 위한 중요한 단계이다. 매일 수집되는 교통 데이터의 급격한 성장으로, 도심지에서 단기 교통 예측을 위한 최근 연구는 장단기메모리LSTM(Long-Short Term Memory) 기반의 딥러닝으로 집중되고 있다. 하지만 단기 (5분) LSTM 모델은 실시간 비선형 교통흐름 예측에는 한계가 있다. 더욱이, 교통 데이터에 기반한 미세먼지 예측은 또한매우 시급한 연구 분야이다. 따라서 본 논문에서는, 중기/장기 예측을 지원하기 위한 멀티 층 LSTM 프레임워크를 설계하였다. 또한 교통데이터 기반 미세먼지 흐름을 예측하기위한 컨볼루션 ConvLSTM (Convolutional LSTM) 모델을 개발하였다. 교통흐름 예측을 위하여 대전시 중심도로의 차량검지기 VDS (Vehicle Detection System) 데이터를 활용하였다. 실험 결과 본 논문에서 제안한 모델은 우수한 예측 성능을 보여주었다.
+PU  - 한국정보과학회
+C6  - Mar. 15.
+PY  - 2020
+ER  - 
+
+TY  - JOUR
+AN  - ART002554955
+AU  - 황철현
+AU  - 신강욱
+C3  - 경복대학교
+TI  - 미세먼지 예측 성능 개선을 위한 CNN-LSTM 결합 방법
+TT  - CNN-LSTM Combination Method for Improving Particular Matter Contamination (PM2.5) Prediction Accuracy
+T2  - 한국정보통신학회논문지
+KW  - 딥러닝
+KW  - 컨볼루션 신경망
+KW  - LSTM
+KW  - 시계열 예측
+KW  - 미세먼지
+AB  - 최근 IoT 센서의 확산과 빅데이터, 인공지능 관련 기술의 발전으로 인해 미세먼지 오염도에 대한 시계열 예측 관련 연구가 활발하게 진행되고 있다. 하지만 미세먼지 오염도를 나타내는 데이터가 급격히 변하는 특성(Extreme)을 가지고 있어 기존의 시계열 예측방법으로는 현장에서 사용할 수 있는 수준의 정확도를 내지 못하고 있다. 이 논문에서는 LSTM을 활용하여 미세먼지 오염도를 예측할 때 CNN을 통한 환경상황을 분류한 결과를 반영하는 방법을 제안한다. 이 방법은 LSTM과 CNN이 독립적이지만 인터페이스를 통해 하나의 네트워크로 통합되기 때문에, 응용 LSTM보다 이해하기 쉽다. Beijing PM2.5 데이터를 활용한 제안 방법의 검증 실험에서 예측 정확도와 변화 시기에 대한 예측력이 다양한 실험 case에서 일관되게 향상된 결과를 보였다.
+PU  - 한국정보통신학회
+C6  - Jan. 31.
+PY  - 2020
+ER  - 
+
+TY  - JOUR
+AN  - ART002548195
+AU  - 백창선
+AU  - 염재홍
+C3  - 세종대학교
+TI  - 위성 영상과 관측 센서 데이터를 이용한 PM10농도 데이터의 시공간 해상도 향상 딥러닝 모델 설계
+TT  - Spatiotemporal Resolution Enhancement of PM10 Concentration Data Using Satellite Image and Sensor Data in Deep Learning
+T2  - 한국측량학회지
+KW  - PM10
+KW  - 딥러닝
+KW  - 위성 영상
+KW  - 센서 데이터
+KW  - 시공간 해상도
+AB  - PM10 농도는 시간 및 공간 의존성을 동시에 가지는 시공간 데이터이지만 현실적으로 연속적인 시공간 데이터를 획득하는 것은 쉬운 일이 아니다. 본 연구에서는 위성영상과 대기질 및 기상 관측 센서 데이터를 복합적인 딥러닝 모델에 적용하여 시공간 해상도를 향상시키는 모델을 설계하였다. 설계된 딥러닝 모델은 기상, 토지 이용 등 PM10 농도에 영향을 줄 수 있는 인자를 이용하여 학습하였으며, 대기질 및 기상 관측 데이터만을 이용하여 15분 단위의 30m×30m의 공간해상도를 PM10 영상을 생성하였다.
+PU  - 한국측량학회
+C6  - Dec. 31.
+PY  - 2019
+ER  - 
+
+TY  - JOUR
+AN  - ART002536637
+AU  - 성상경
+AU  - 조영상
+C3  - 연세대학교 일반대학원 공과대학 산업공학과 석사과정
+TI  - 미세먼지의 영향을 고려한 머신러닝 기반태양광 발전량 예측
+TT  - Prediction of Photovoltaic Power Generation Based on Machine Learning Considering the Influence of Particulate Matter
+T2  - 자원환경경제연구
+KW  - 머신러닝
+KW  - 태양광 발전량 예측
+KW  - 미세먼지
+KW  - 서포트 벡터 머신
+AB  - 태양광 발전과 같은 신재생에너지의 불확실성은 전력계통의 유연성을 저해하며, 이를 방지하기 위해서는 정확한 발전량의 사전 예측이 중요하다. 본 연구는 미세먼지 농도를 포함한 기상자료를 이용하여 태양광 발전량을 예측하는 것을 목적으로 한다. 본 연구에서는 2016년 1월 1일부터 2018년 9월 30일까지의 발전량, 기상자료, 미세먼지 농도 자료를 이용하고 머신러닝 기반의 RBF 커널 함수를 사용한 서포트 벡터 머신을 적용하여 태양광 발전량을 예측하였다. 예측변수에 미세먼지 농도 반영 유무에 따른 태양광 발전량 예측 모델의 성능을 비교한 결과 미세먼지 농도를 반영한 발전량 예측 모델의 성능이 더 우수한 것으로 나타났다. 미세먼지를 고려한 예측 모형은 미세먼지를 고려하지 않은 예측 모형 대비 6~20시 예측 모형에서는 1.43%, 12~14시 예측 모형에서는 3.60%, 13시 예측 모형에서는 3.88%만큼 오차가 감소하였다. 특히 발전량이 많은 주간 시간대에 미세먼지 농도를 반영하는 모형의 예측 정확도가 더 뛰어난 것으로 나타났다.
+PU  - 한국환경경제학회
+C6  - Dec. 31.
+PY  - 2019
+ER  - 
+
+TY  - JOUR
+AN  - ART002530800
+AU  - 신익희
+AU  - 문용혁
+AU  - 이용주
+C3  - 과학기술연합대학원대학교 한국전자통신연구원스쿨
+TI  - 지능형 도시에서 미세먼지 예측을 위한 심층 학습 기법 적합성 평가
+TT  - Deep Learning Models Conformity Assessment for Particulate Matter Prediction in Smart Cities
+T2  - 정보과학회 컴퓨팅의 실제 논문지
+KW  - 스마트 시티
+KW  - 미세먼지 예측
+KW  - 시계열 데이터
+KW  - 딥러닝
+AB  - 대기중 미세먼지 농도 증가와 미세먼지가 인체에 끼치는 해로움에 대한 관심이 커지면서 미세먼지에 대한 신체 노출을 줄이기 위한 방법으로 미세먼지 예측이 떠오르고 있다. 또한 지역별 미세먼지 수치 관측에 대한 요구가 증가하고 있지만 미세먼지 관측소가 부족해 요구를 만족하기 어렵다. 본 논문에서는 스마트 시티 데이터를 활용하여 미세먼지 관측소가 부족한 문제를 해결하고 미세먼지 수치를 예측하고자 한다. 스마트 시티 데이터 같은 시계열 데이터를 다루는 딥러닝 모델은 입력 데이터의 특성 수에 영향을 받기 때문에 미세먼지 예측에 적합한 모델을 찾아야한다. 데이터 특성이 다른 두 스마트 시티 데이터에 대해 다층 신경망, LSTM, CNN-LSTM 모델을 학습하여 RMSE, MAPE의 값과 표준편차를 비교하여 적합한 딥러닝 모델을 제시한다. 제시한 모델과 기존 연구들에서 사용된 모델을 비교한 결과 제시한 모델이 더 정확한 예측을 수행하였다.
+PU  - 한국정보과학회
+C6  - Dec. 15.
+PY  - 2019
+ER  - 
+
+TY  - JOUR
+AN  - ART002525276
+AU  - 유숙현
+C3  - 안양대학교
+TI  - 동아시아 광역 데이터를 활용한 DNN 기반의 서울지역 PM10 예보모델의 개발
+TT  - Development of PM10 Forecasting Model for Seoul Based on DNN Using East Asian Wide Area Data
+T2  - 멀티미디어학회논문지
+KW  - AI
+KW  - DNN
+KW  - PM10 Forecasting
+KW  - Air Quality
+AB  - In this paper, PM10 forecast model using DNN(Deep Neural Network) is developed for Seoul region.The previous Julian forecast model has been developed using weather and air quality data of Seoul region only. This model gives excellent results for accuracy and false alarm rates, but poor result for POD(Probability of Detection). To solve this problem, an WA(Wide Area) forecasting model that uses Chinese data is developed. The data is highly correlated with the emergence of high concentrations of PM10 in Korea. As a result, the WA model shows better accuracy, and POD improving of 3%(D+0), 21%(D+1), and 36%(D+2) for each forecast period compared with the Julian model
+PU  - 한국멀티미디어학회
+C6  - Nov. 29.
+PY  - 2019
+ER  - 
+
+TY  - JOUR
+AN  - ART002517574
+AU  - 유숙현
+AU  - 전영태
+C3  - 안양대학교
+TI  - DNN과 2차 데이터를 이용한 PM10 예보 성능 개선
+TT  - Improvement of PM10 Forecasting Performance using DNN and Secondary Data
+T2  - 멀티미디어학회논문지
+KW  - PM10 Forecasting
+KW  - Air Quality Index
+KW  - Deep Neural Network
+KW  - AI
+AB  - In this study, we propose a new PM10 forecasting model for Seoul region using DNN(Deep Neural Network) and secondary data. The previous numerical and Julian forecast model have been developed using primary data such as weather and air quality measurements. These models give excellent results for accuracy and false alarms, but POD is not good for the daily life usage. To solve this problem, we develop four secondary factors composed with primary data, which reflect the correlations between primary factors and high PM10 concentrations. The proposed 4 models are A(Anomaly), BT(Back trajectory), CB(Contribution), CS(Cosine similarity), and ALL(model using all 4 secondary data). Among them, model ALL shows the best performance in all indicators, especially the PODs are improved.
+PU  - 한국멀티미디어학회
+C6  - Oct. 31.
+PY  - 2019
+ER  - 
+
+TY  - JOUR
+AN  - ART002505709
+AU  - 유숙현
+AU  - 전영태
+AU  - 권희용
+C3  - 안양대학교
+TI  - 멤버십 함수와 DNN을 이용한 PM10 예보 성능의 향상
+TT  - Improvement of PM10 Forecasting Performance using Membership Function and DNN
+T2  - 멀티미디어학회논문지
+KW  - PM10 Forecasting
+KW  - Air Quality Index
+KW  - Deep Neural Network
+KW  - Membership Function
+KW  - AI
+AB  - In this study, we developed a PM10 forecasting model using DNN and Membership Function, and improved the forecasting performance. The model predicts the PM10 concentrations of the next 3 days in the Seoul area by using the weather and air quality observation data and forecast data. The best model(RM14)’s accuracy (82%, 76%, 69%) and false alarm rate(FAR:14%,33%,44%) are good. Probability of detection (POD: 79%, 50%, 53%), however, are not good performance. These are due to the lack of training data for high concentration PM10 compared to low concentration. In addition, the model dose not reflect seasonal factors closely related to the generation of high concentration PM10. To improve this, we propose Julian date membership function as inputs of the PM10 forecasting model. The function express a given date in 12 factors to reflect seasonal characteristics closely related to high concentration PM10.As a result, the accuracy (79%, 70%, 66%) and FAR (24%, 48%, 46%) are slightly reduced in performance, but the POD (79%, 75%, 71%) are up to 25% improved compared with those of the RM14 model. Hence, this shows that the proposed Julian forecast model is effective for high concentration PM10 forecasts.
+PU  - 한국멀티미디어학회
+C6  - Sep. 30.
+PY  - 2019
+ER  - 
+
+TY  - JOUR
+AN  - ART002452927
+AU  - 임준묵
+C3  - 한밭대학교
+TI  - 기상환경데이터와 머신러닝을 활용한 미세먼지농도 예측 모델
+TT  - An Estimation Model of Fine Dust Concentration Using Meteorological Environment Data and Machine Learning
+T2  - 한국IT서비스학회지
+KW  - Fine Dust
+KW  - Machine Learning
+KW  - Weather Data
+KW  - Bigdata
+AB  - Recently, as the amount of fine dust has risen rapidly, our interest is increasing day by day. It is virtually impossible to remove fine dust. However, it is best to predict the concentration of fine dust and minimize exposure to it. In this study, we developed a mathematical model that can predict the concentration of fine dust using various information related to the weather and air quality, which is provided in real time in 'Air Korea (http://www.airkorea.or.kr/)' and 'Weather Data Open Portal (https://data.kma.go.kr/).' In the mathematical model, various domestic seasonal variables and atmospheric state variables are extracted by multiple regression analysis. The parameters that have significant influence on the fine dust concentration are extracted, and using ANN (Artificial　Neural　Network) and SVM (Support Vector Machine), which are machine learning techniques, we proposed a prediction model. The proposed model can verify its effectiveness by using past dust and weather big data.
+PU  - 한국IT서비스학회
+C6  - Mar. 31.
+PY  - 2019
+ER  - 
+
+TY  - JOUR
+AN  - ART002435102
+AU  - 조경우
+AU  - 정용진
+AU  - 강철규
+AU  - 오창헌
+C3  - 한국기술교육대학교
+TI  - 미세먼지 예측을 위한 기계 학습 알고리즘의 적합성 평가
+TT  - Conformity Assessment of Machine Learning Algorithm for Particulate Matter Prediction
+T2  - 한국정보통신학회논문지
+KW  - 미세먼지
+KW  - 예측
+KW  - 기계 학습
+KW  - 딥 러닝
+KW  - 인공 신경망
+AB  - 미세먼지의 인체 영향으로 인해 기존 대기 환경 모니터링 네트워크에서 측정된 과거 데이터를 활용하여 미세먼지를 예측하려는 다양한 연구가 진행되고 있다. 하지만 기존 설계된 예측 모델의 측정 환경, 세부 조건을 정확히 설정하기 어려우며, 측정된 기상 데이터의 누락과 같은 문제로 기존 연구 결과에 기반 한 새로운 예측 모델의 설계가 필요하다. 본 논문에서는 미세먼지 예측을 위한 선행 연구로서 다수의 연구에서 사용된 기계 학습 알고리즘인 다중 선형 회귀와 인공 신경망을 통해 예측 모델을 설계하여 미세먼지 예측을 위한 알고리즘의 적합성을 평가하였다. RMSE를 통한 예측 성능 비교 결과, MLR 모델의 경우 18.13, MLP 모델의 경우 14.31의 값을 보여 미세먼지 농도를 예측함에 있어 인공 신경망 모델이 예측에 더 적합함을 보였다.
+PU  - 한국정보통신학회
+C6  - Jan.
+PY  - 2019
+ER  - 
+
+TY  - JOUR
+AN  - ART002405303
+AU  - 김삼근
+AU  - 오택일
+C3  - 한경대학교 컴퓨터시스템연구소&컴퓨터공학과
+TI  - IoT 스트리밍 센서 데이터에 기반한 실시간 PM10 농도 예측 LSTM 모델
+TT  - Real-time PM10 Concentration Prediction LSTM Model based on IoT Streaming Sensor dataReal-time PM10 Concentration Prediction LSTM Model based on IoT Streaming Sensor data
+T2  - 한국산학기술학회논문지
+KW  - Long Short Term Memory
+KW  - PM10
+KW  - Prediction model
+KW  - Recurrent Neural Network
+KW  - Sequence data
+AB  - 최근 사물인터넷(IoT)의 등장으로 인터넷에 연결된 다양한 기기들에 의해 대규모의 데이터가 생성됨에 따라 빅데이터 분석의 중요성이 증가하고 있다. 특히 실시간으로 생성되는 대규모의 IoT 스트리밍 센서 데이터를 분석하여 새로운 의미있는 미래 예측을 통해 다양한 서비스를 제공하는 것이 필요하게 되었다. 본 논문은 AWS를 활용하여 IoT 센서로부터 생성되는 스트리밍 데이터에 기반하여 실시간 실내 PM10 농도 예측 LSTM 모델을 제안한다. 또한 제안 모델에 따른 실시간 실내 PM10 농도 예측 서비스를 구축한다. 논문에 사용된 데이터는 PM10 IoT 센서로부터 24시간 동안 수집된 스트리밍 데이터이다. 이를 LSTM의 입력 데이터로 사용하기 위해 PM10 시계열 데이터로부터 30개의 연속된 값으로 이루어진 시퀀스 데이터로 변환한다. LSTM 모델은 바로 인접한 공간으로 이동해 가는 슬라이딩 윈도우 프로세스를 통하여 학습한다. 또한 모델의 성능 개선을 위해 24시간마다 수집한 스트리밍 데이터에 대해 점진적 학습 방법을 적용한다. 제안한 LSTM 모델의 성능을 평가하기 위해 선형회귀 모델 및 순환형 신경망(RNN) 모델과 비교한다. 실험 결과는 제안한 LSTM 예측 모델이 선형 회귀보다 700%, RNN 모델보다는 140% 성능 개선이 있음을 보여주었다.
+PU  - 한국산학기술학회
+C6  - Nov.
+PY  - 2018
+ER  - 
+
+TY  - JOUR
+AN  - ART002367102
+AU  - 송인상
+AU  - 이창로
+AU  - 박기호
+C3  - 서울대학교
+TI  - 서울 미세먼지 데이터 결측대치를 위한 시공간 크리깅의 앙상블 머신러닝
+TT  - An Ensemble Machine Learning from Spatio-temporal Kriging for Imputation of PM10 in Seoul, Korea
+T2  - 대한지리학회지
+KW  - 결측대치
+KW  - 시공간 크리깅
+KW  - 재표집
+KW  - 미세먼지
+AB  - 시공간 데이터의 결측치는 그 자체로 데이터의 결함으로서 시공간 분석 결과를 왜곡시킬 수 있다. 그러나 시공간 데이터에 내재된 시공간 의존성을 이용한 결측대치 방법은 덜 주목받아 왔다. 이에 본 연구에서는 서울특별시 및 근방의 54개 측정소로부터 2010년부터 2014년까지 5년간 측정된 시간별 미세먼지(PM10) 데이터의 결측치를 대치하기 위하여 앙상블 시공간 크리깅 모형에 기초한 결측대치 모형을 제안하였다. 기존 연구들을 검토한 결과, 본 연구에서 이용된 접근법의 필요성이 발견되었다. 본 연구가 제안하는 앙상블 결측대치 모형은 단기간의 시공간 데이터에서 재표집(resampling)된 하위 데이터셋으로 복수의 시공간 크리깅 모형들을 적합하고, 이들을 앙상블하여 결측대치 정확도를 높이고자 한다. 향상 여부를 실증하기 위하여 측정 데이터에 대해 결측대치 실험을 실시하였다. 실험에서는 재표집 횟수, 시공간 크리깅 적합 시 이웃 비율, 결측 생성 비율 등 3요소에 대해 서로 다른 조건들을 적용하였다. 실험 결과, 제안된 앙상블 모형은 단일 시행 시공간 크리깅 모형(1.32~11.36%)과, 선형 앙상블 모형(평균 52%)보다 높은 정확도로 결측치를 대치하였다. 본 결과는 제한된 환경에서 시공간 크리깅 모형 앙상블이 결측 대치 정확도를 높이는 데 효과가 있음을 입증한다. 다만 제안된 알고리즘의 정확성은 머신러닝기반의 결측대치 알고리즘에 비해서 덜 우수했는데, 이 결과는 머신러닝 알고리즘에서 시공간 의존성 효과가 어떻게 나타나는지에 대한 추가 연구 필요성을 제기한다.
+PU  - 대한지리학회
+C6  - Jun. 30.
+PY  - 2018
+ER  - 
+
+TY  - JOUR
+AN  - ART002258923
+AU  - 강태천
+AU  - 강행봉
+C3  - 가톨릭대학교
+TI  - Domain Adaptation 방법을 이용한 기계학습 기반의 미세먼지 농도 예측
+TT  - Machine Learning-based Estimation of the Concentration of Fine Particulate Matter Using Domain Adaptation Method
+T2  - 멀티미디어학회논문지
+KW  - Fine Particulate Matter
+KW  - Domain Adaptation
+KW  - Big Data
+KW  - Domain Adversarial Neural Network
+AB  - Recently, people's attention and worries about fine particulate matter have been increasing. Due to the construction and maintenance costs, there are insufficient air quality monitoring stations. As a result, people have limited information about the concentration of fine particulate matter, depending on the location. Studies have been undertaken to estimate the fine particle concentrations in areas without a measurement station. Yet there are limitations in that the estimate cannot take account of other factors that affect the concentration of fine particle. In order to solve these problems, we propose a framework for estimating the concentration of fine particulate matter of a specific area using meteorological data and traffic data. Since there are more grids without a monitor station than grids with a monitor station, we used a domain adversarial neural network based on the domain adaptation method. The features extracted from meteorological data and traffic data are learned in the network, and the air quality index of the corresponding area is then predicted by the generated model. Experimental results demonstrate that the proposed method performs better as the number of source data increases than the method using conditional random fields.
+PU  - 한국멀티미디어학회
+C6  - Aug. 31.
+PY  - 2017
+ER  - 
+
