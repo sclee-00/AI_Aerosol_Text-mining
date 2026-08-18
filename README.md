@@ -6,5 +6,5 @@
 - Web of Science (WoS)  [WoS](https://www.webofscience.com/wos/woscc/smart-search)
 
 ## Package Version
-python=3.12.13
-scikit-learn=1.9.0
+- python=3.12.13
+- scikit-learn=1.9.0
