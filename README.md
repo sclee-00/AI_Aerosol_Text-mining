@@ -8,3 +8,6 @@
 ## Package Version
 - python=3.12.13
 - scikit-learn=1.9.0
+
+## Installing required libraries
+- numpy, pandas, matplotlib, seaborn, scipy, scikit-learn, networkx, rispy, Pillow, threadpoolctl
